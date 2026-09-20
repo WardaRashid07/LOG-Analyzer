@@ -1,0 +1,2069 @@
+Timestamp,level,Component,Message
+2024-01-15 08:00:00,ERROR,DataLoader,Failed to write output file: permission denied
+2024-01-15 08:00:08,INFO,DataLoader,Batch 4468 processed successfully
+2024-01-15 08:00:17,WARN,DataLoader,"Record count mismatch: expected 768, got 1792"
+2024-01-15 08:00:26,INFO,Scheduler,File loaded successfully
+2024-01-15 08:00:34,ERROR,Scheduler,Schema validation failed for table: orders
+2024-01-15 08:00:43,WARN,DataLoader,"Retrying connection, attempt 3463"
+2024-01-15 08:00:52,INFO,Transformer,Job completed in 838 seconds
+2024-01-15 08:01:00,INFO,Validator,Job completed in 4946 seconds
+2024-01-15 08:01:09,ERROR,Exporter,Unhandled exception: KeyError('customer_id')
+2024-01-15 08:01:18,INFO,Validator,Batch 2963 processed successfully
+2024-01-15 08:01:27,INFO,DataLoader,File loaded successfully
+2024-01-15 08:01:35,DEBUG,Transformer,Entering function process_batch()
+2024-01-15 08:01:44,WARN,Validator,"Retrying connection, attempt 3033"
+2024-01-15 08:01:53,INFO,Validator,Batch 585 processed successfully
+2024-01-15 08:02:01,ERROR,Scheduler,Failed to write output file: permission denied
+2024-01-15 08:02:10,WARN,Validator,"Partial batch processed, 1800 records skipped"
+2024-01-15 08:02:19,DEBUG,DataLoader,Cache hit ratio: 263%
+2024-01-15 08:02:27,INFO,DataLoader,Starting data load
+2024-01-15 08:02:36,INFO,Exporter,Connection established to source system
+2024-01-15 08:02:45,INFO,Transformer,Batch 4599 processed successfully
+2024-01-15 08:02:54,INFO,Scheduler,Connection established to source system
+2024-01-15 08:03:02,INFO,Transformer,Checkpoint saved
+2024-01-15 08:03:11,ERROR,DataLoader,Null detected in field: user_id
+2024-01-15 08:03:20,WARN,Exporter,Slow query detected: 4882ms
+2024-01-15 08:03:28,WARN,Scheduler,"Record count mismatch: expected 939, got 4399"
+2024-01-15 08:03:37,ERROR,Validator,Null value found in column: amount
+2024-01-15 08:03:46,INFO,DataLoader,Batch 2158 processed successfully
+2024-01-15 08:03:55,ERROR,Scheduler,Null value found in column: amount
+2024-01-15 08:04:03,WARN,Transformer,Deprecated config key used: legacy_mode
+2024-01-15 08:04:12,DEBUG,Scheduler,Entering function process_batch()
+2024-01-15 08:04:21,WARN,DataLoader,Deprecated config key used: legacy_mode
+2024-01-15 08:04:29,INFO,Scheduler,File loaded successfully
+2024-01-15 08:04:38,ERROR,Scheduler,Duplicate primary key detected: 1031
+2024-01-15 08:04:47,ERROR,Scheduler,Null detected in field: user_id
+2024-01-15 08:04:55,DEBUG,Exporter,Cache hit ratio: 4418%
+2024-01-15 08:05:04,ERROR,Exporter,Failed to write output file: permission denied
+2024-01-15 08:05:13,DEBUG,Exporter,Entering function process_batch()
+2024-01-15 08:05:22,INFO,DataLoader,Checkpoint saved
+2024-01-15 08:05:30,WARN,DataLoader,"Record count mismatch: expected 483, got 1876"
+2024-01-15 08:05:39,INFO,DataLoader,Job completed in 581 seconds
+2024-01-15 08:05:48,INFO,Exporter,Starting data load
+2024-01-15 08:05:56,ERROR,Scheduler,Unhandled exception: KeyError('customer_id')
+2024-01-15 08:06:05,ERROR,Exporter,Null detected in field: user_id
+2024-01-15 08:06:14,ERROR,Validator,Schema validation failed for table: orders
+2024-01-15 08:06:22,DEBUG,DataLoader,Entering function process_batch()
+2024-01-15 08:06:31,ERROR,DataLoader,Null detected in field: user_id
+2024-01-15 08:06:40,WARN,Transformer,Slow query detected: 1504ms
+2024-01-15 08:06:49,WARN,DataLoader,Slow query detected: 4509ms
+2024-01-15 08:06:57,INFO,Scheduler,File loaded successfully
+2024-01-15 08:07:06,INFO,Exporter,Connection established to source system
+2024-01-15 08:07:15,DEBUG,Transformer,Query plan: sequential scan on table orders
+2024-01-15 08:07:23,INFO,Exporter,Job completed in 3466 seconds
+2024-01-15 08:07:32,ERROR,Exporter,Null detected in field: user_id
+2024-01-15 08:07:41,INFO,DataLoader,Checkpoint saved
+2024-01-15 08:07:50,ERROR,DataLoader,Null value found in column: amount
+2024-01-15 08:07:58,WARN,Scheduler,"Retrying connection, attempt 466"
+2024-01-15 08:08:07,INFO,Transformer,File loaded successfully
+2024-01-15 08:08:16,ERROR,Transformer,Schema validation failed for table: orders
+2024-01-15 08:08:24,INFO,Scheduler,File loaded successfully
+2024-01-15 08:08:33,ERROR,Scheduler,Unhandled exception: KeyError('customer_id')
+2024-01-15 08:08:42,INFO,Validator,Starting data load
+2024-01-15 08:08:50,INFO,Validator,Connection established to source system
+2024-01-15 08:08:59,INFO,Scheduler,Checkpoint saved
+2024-01-15 08:09:08,WARN,Scheduler,Deprecated config key used: legacy_mode
+2024-01-15 08:09:17,DEBUG,Transformer,Memory usage: 2335MB
+2024-01-15 08:09:25,INFO,Scheduler,Batch 2479 processed successfully
+2024-01-15 08:09:34,INFO,Scheduler,Job completed in 849 seconds
+2024-01-15 08:09:43,INFO,DataLoader,Batch 4533 processed successfully
+2024-01-15 08:09:51,INFO,Scheduler,Starting data load
+2024-01-15 08:10:00,ERROR,Validator,Unhandled exception: KeyError('customer_id')
+2024-01-15 08:10:09,DEBUG,DataLoader,Entering function process_batch()
+2024-01-15 08:10:17,INFO,Validator,Starting data load
+2024-01-15 08:10:26,ERROR,Scheduler,Failed to write output file: permission denied
+2024-01-15 08:10:35,INFO,DataLoader,Batch 1222 processed successfully
+2024-01-15 08:10:44,INFO,Validator,Checkpoint saved
+2024-01-15 08:10:52,INFO,DataLoader,Job completed in 2988 seconds
+2024-01-15 08:11:01,DEBUG,Transformer,Cache hit ratio: 843%
+2024-01-15 08:11:10,ERROR,Exporter,Unhandled exception: KeyError('customer_id')
+2024-01-15 08:11:18,DEBUG,Transformer,Query plan: sequential scan on table orders
+2024-01-15 08:11:27,ERROR,Validator,Duplicate primary key detected: 3373
+2024-01-15 08:11:36,INFO,DataLoader,Connection established to source system
+2024-01-15 08:11:45,INFO,Exporter,Job completed in 2501 seconds
+2024-01-15 08:11:53,INFO,Transformer,Connection established to source system
+2024-01-15 08:12:02,DEBUG,Validator,Memory usage: 4174MB
+2024-01-15 08:12:11,ERROR,Scheduler,Connection timeout after 227 seconds
+2024-01-15 08:12:19,DEBUG,Validator,Cache hit ratio: 4757%
+2024-01-15 08:12:28,INFO,Scheduler,Connection established to source system
+2024-01-15 08:12:37,INFO,Scheduler,File loaded successfully
+2024-01-15 08:12:45,INFO,DataLoader,Batch 3573 processed successfully
+2024-01-15 08:12:54,WARN,Scheduler,"Retrying connection, attempt 2984"
+2024-01-15 08:13:03,INFO,Validator,Checkpoint saved
+2024-01-15 08:13:12,ERROR,Validator,Unhandled exception: KeyError('customer_id')
+2024-01-15 08:13:20,INFO,Validator,Checkpoint saved
+2024-01-15 08:13:29,INFO,Exporter,Batch 1426 processed successfully
+2024-01-15 08:13:38,INFO,Scheduler,File loaded successfully
+2024-01-15 08:13:46,INFO,Scheduler,Checkpoint saved
+2024-01-15 08:13:55,INFO,Transformer,Checkpoint saved
+2024-01-15 08:14:04,ERROR,Validator,Unhandled exception: KeyError('customer_id')
+2024-01-15 08:14:12,ERROR,Transformer,Failed to write output file: permission denied
+2024-01-15 08:14:21,ERROR,Transformer,Null value found in column: amount
+2024-01-15 08:14:30,DEBUG,Scheduler,Entering function process_batch()
+2024-01-15 08:14:39,DEBUG,Scheduler,Cache hit ratio: 3146%
+2024-01-15 08:14:47,INFO,Transformer,Batch 46 processed successfully
+2024-01-15 08:14:56,ERROR,Transformer,Null detected in field: user_id
+2024-01-15 08:15:05,INFO,Transformer,File loaded successfully
+2024-01-15 08:15:13,ERROR,Scheduler,Unhandled exception: KeyError('customer_id')
+2024-01-15 08:15:22,DEBUG,Exporter,Variable state: batch_size=4136
+2024-01-15 08:15:31,DEBUG,Scheduler,Query plan: sequential scan on table orders
+2024-01-15 08:15:40,WARN,Transformer,Deprecated config key used: legacy_mode
+2024-01-15 08:15:48,ERROR,Validator,Schema validation failed for table: orders
+2024-01-15 08:15:57,INFO,Validator,Job completed in 4425 seconds
+2024-01-15 08:16:06,INFO,Transformer,Connection established to source system
+2024-01-15 08:16:14,INFO,Exporter,Job completed in 4446 seconds
+2024-01-15 08:16:23,INFO,Transformer,Connection established to source system
+2024-01-15 08:16:32,DEBUG,DataLoader,Variable state: batch_size=3117
+2024-01-15 08:16:40,INFO,Validator,Job completed in 3195 seconds
+2024-01-15 08:16:49,WARN,Scheduler,"Partial batch processed, 1807 records skipped"
+2024-01-15 08:16:58,INFO,Exporter,Connection established to source system
+2024-01-15 08:17:07,INFO,Exporter,Batch 1353 processed successfully
+2024-01-15 08:17:15,DEBUG,Scheduler,Variable state: batch_size=221
+2024-01-15 08:17:24,WARN,DataLoader,"Record count mismatch: expected 3512, got 1112"
+2024-01-15 08:17:33,DEBUG,Transformer,Entering function process_batch()
+2024-01-15 08:17:41,INFO,Exporter,Job completed in 2765 seconds
+2024-01-15 08:17:50,INFO,Exporter,Job completed in 671 seconds
+2024-01-15 08:17:59,INFO,Scheduler,File loaded successfully
+2024-01-15 08:18:08,ERROR,DataLoader,Duplicate primary key detected: 255
+2024-01-15 08:18:16,INFO,DataLoader,Checkpoint saved
+2024-01-15 08:18:25,INFO,DataLoader,Checkpoint saved
+2024-01-15 08:18:34,ERROR,Validator,Null detected in field: user_id
+2024-01-15 08:18:42,DEBUG,DataLoader,Cache hit ratio: 2549%
+2024-01-15 08:18:51,WARN,Validator,"Partial batch processed, 3075 records skipped"
+2024-01-15 08:19:00,DEBUG,Transformer,Entering function process_batch()
+2024-01-15 08:19:08,INFO,Validator,Batch 4919 processed successfully
+2024-01-15 08:19:17,ERROR,Scheduler,Duplicate primary key detected: 337
+2024-01-15 08:19:26,WARN,Validator,"Record count mismatch: expected 4145, got 2796"
+2024-01-15 08:19:35,INFO,Exporter,Connection established to source system
+2024-01-15 08:19:43,DEBUG,Exporter,Cache hit ratio: 3568%
+2024-01-15 08:19:52,ERROR,Validator,Unhandled exception: KeyError('customer_id')
+2024-01-15 08:20:01,WARN,Scheduler,Deprecated config key used: legacy_mode
+2024-01-15 08:20:09,DEBUG,DataLoader,Memory usage: 3693MB
+2024-01-15 08:20:18,ERROR,Scheduler,Unhandled exception: KeyError('customer_id')
+2024-01-15 08:20:27,INFO,Validator,Starting data load
+2024-01-15 08:20:35,INFO,Validator,Job completed in 2291 seconds
+2024-01-15 08:20:44,ERROR,Validator,Unhandled exception: KeyError('customer_id')
+2024-01-15 08:20:53,DEBUG,DataLoader,Cache hit ratio: 3330%
+2024-01-15 08:21:02,WARN,Transformer,Slow query detected: 4021ms
+2024-01-15 08:21:10,ERROR,DataLoader,Connection timeout after 1816 seconds
+2024-01-15 08:21:19,ERROR,Validator,Failed to write output file: permission denied
+2024-01-15 08:21:28,WARN,Scheduler,Deprecated config key used: legacy_mode
+2024-01-15 08:21:36,INFO,Exporter,Job completed in 2512 seconds
+2024-01-15 08:21:45,INFO,Transformer,Job completed in 980 seconds
+2024-01-15 08:21:54,DEBUG,Transformer,Cache hit ratio: 1773%
+2024-01-15 08:22:03,INFO,Scheduler,Checkpoint saved
+2024-01-15 08:22:11,DEBUG,Transformer,Memory usage: 1864MB
+2024-01-15 08:22:20,INFO,DataLoader,Batch 4376 processed successfully
+2024-01-15 08:22:29,INFO,DataLoader,Checkpoint saved
+2024-01-15 08:22:37,ERROR,Exporter,Null value found in column: amount
+2024-01-15 08:22:46,INFO,Exporter,Connection established to source system
+2024-01-15 08:22:55,DEBUG,Validator,Query plan: sequential scan on table orders
+2024-01-15 08:23:03,INFO,DataLoader,Checkpoint saved
+2024-01-15 08:23:12,INFO,Scheduler,Job completed in 698 seconds
+2024-01-15 08:23:21,INFO,Exporter,Checkpoint saved
+2024-01-15 08:23:30,ERROR,Exporter,Schema validation failed for table: orders
+2024-01-15 08:23:38,DEBUG,Exporter,Memory usage: 4659MB
+2024-01-15 08:23:47,WARN,DataLoader,"Retrying connection, attempt 1729"
+2024-01-15 08:23:56,ERROR,Transformer,Null detected in field: user_id
+2024-01-15 08:24:04,INFO,DataLoader,Connection established to source system
+2024-01-15 08:24:13,WARN,DataLoader,"Retrying connection, attempt 2361"
+2024-01-15 08:24:22,ERROR,Exporter,Null value found in column: amount
+2024-01-15 08:24:30,ERROR,Scheduler,Failed to write output file: permission denied
+2024-01-15 08:24:39,INFO,Transformer,Batch 1221 processed successfully
+2024-01-15 08:24:48,DEBUG,DataLoader,Entering function process_batch()
+2024-01-15 08:24:57,WARN,Scheduler,Deprecated config key used: legacy_mode
+2024-01-15 08:25:05,WARN,Validator,Slow query detected: 2231ms
+2024-01-15 08:25:14,WARN,Exporter,"Record count mismatch: expected 4900, got 327"
+2024-01-15 08:25:23,DEBUG,Validator,Variable state: batch_size=2052
+2024-01-15 08:25:31,INFO,Scheduler,Checkpoint saved
+2024-01-15 08:25:40,WARN,Transformer,Slow query detected: 4252ms
+2024-01-15 08:25:49,DEBUG,Transformer,Variable state: batch_size=3571
+2024-01-15 08:25:58,DEBUG,Exporter,Memory usage: 3346MB
+2024-01-15 08:26:06,INFO,DataLoader,Starting data load
+2024-01-15 08:26:15,ERROR,Validator,Failed to write output file: permission denied
+2024-01-15 08:26:24,INFO,DataLoader,Job completed in 2068 seconds
+2024-01-15 08:26:32,INFO,Exporter,Checkpoint saved
+2024-01-15 08:26:41,WARN,DataLoader,"Retrying connection, attempt 4248"
+2024-01-15 08:26:50,ERROR,Exporter,Failed to write output file: permission denied
+2024-01-15 08:26:58,INFO,Scheduler,Starting data load
+2024-01-15 08:27:07,DEBUG,Exporter,Entering function process_batch()
+2024-01-15 08:27:16,ERROR,Transformer,Connection timeout after 4513 seconds
+2024-01-15 08:27:25,WARN,DataLoader,"Retrying connection, attempt 930"
+2024-01-15 08:27:33,DEBUG,Transformer,Query plan: sequential scan on table orders
+2024-01-15 08:27:42,ERROR,Exporter,Duplicate primary key detected: 3953
+2024-01-15 08:27:51,INFO,Scheduler,Starting data load
+2024-01-15 08:27:59,DEBUG,Scheduler,Cache hit ratio: 572%
+2024-01-15 08:28:08,ERROR,Exporter,Connection timeout after 4160 seconds
+2024-01-15 08:28:17,DEBUG,Validator,Memory usage: 4809MB
+2024-01-15 08:28:25,DEBUG,Exporter,Cache hit ratio: 3659%
+2024-01-15 08:28:34,WARN,Validator,"Partial batch processed, 4452 records skipped"
+2024-01-15 08:28:43,WARN,Validator,"Retrying connection, attempt 1957"
+2024-01-15 08:28:52,INFO,Exporter,File loaded successfully
+2024-01-15 08:29:00,ERROR,Exporter,Schema validation failed for table: orders
+2024-01-15 08:29:09,DEBUG,Transformer,Variable state: batch_size=4835
+2024-01-15 08:29:18,DEBUG,Exporter,Entering function process_batch()
+2024-01-15 08:29:26,INFO,Transformer,Connection established to source system
+2024-01-15 08:29:35,WARN,Validator,Deprecated config key used: legacy_mode
+2024-01-15 08:29:44,DEBUG,Scheduler,Query plan: sequential scan on table orders
+2024-01-15 08:29:53,DEBUG,DataLoader,Variable state: batch_size=561
+2024-01-15 08:30:01,ERROR,Validator,Null detected in field: user_id
+2024-01-15 08:30:10,DEBUG,DataLoader,Query plan: sequential scan on table orders
+2024-01-15 08:30:19,DEBUG,DataLoader,Memory usage: 460MB
+2024-01-15 08:30:27,INFO,Exporter,Starting data load
+2024-01-15 08:30:36,INFO,Transformer,Starting data load
+2024-01-15 08:30:45,WARN,Exporter,"Partial batch processed, 1973 records skipped"
+2024-01-15 08:30:53,DEBUG,Transformer,Cache hit ratio: 3778%
+2024-01-15 08:31:02,WARN,DataLoader,Slow query detected: 2357ms
+2024-01-15 08:31:11,INFO,Exporter,Job completed in 4814 seconds
+2024-01-15 08:31:20,ERROR,Exporter,Failed to write output file: permission denied
+2024-01-15 08:31:28,DEBUG,Transformer,Query plan: sequential scan on table orders
+2024-01-15 08:31:37,INFO,Scheduler,Job completed in 4709 seconds
+2024-01-15 08:31:46,DEBUG,Validator,Entering function process_batch()
+2024-01-15 08:31:54,INFO,DataLoader,Checkpoint saved
+2024-01-15 08:32:03,ERROR,Transformer,Unhandled exception: KeyError('customer_id')
+2024-01-15 08:32:12,ERROR,Scheduler,Connection timeout after 1121 seconds
+2024-01-15 08:32:21,DEBUG,DataLoader,Memory usage: 3612MB
+2024-01-15 08:32:29,WARN,Transformer,"Record count mismatch: expected 2418, got 2677"
+2024-01-15 08:32:38,ERROR,Transformer,Null detected in field: user_id
+2024-01-15 08:32:47,DEBUG,Validator,Variable state: batch_size=4111
+2024-01-15 08:32:55,DEBUG,Validator,Query plan: sequential scan on table orders
+2024-01-15 08:33:04,ERROR,Exporter,Null value found in column: amount
+2024-01-15 08:33:13,DEBUG,Exporter,Variable state: batch_size=2997
+2024-01-15 08:33:21,ERROR,DataLoader,Connection timeout after 4396 seconds
+2024-01-15 08:33:30,WARN,Validator,"Partial batch processed, 3122 records skipped"
+2024-01-15 08:33:39,INFO,Transformer,Connection established to source system
+2024-01-15 08:33:48,INFO,Scheduler,Starting data load
+2024-01-15 08:33:56,DEBUG,Validator,Query plan: sequential scan on table orders
+2024-01-15 08:34:05,INFO,DataLoader,Job completed in 4036 seconds
+2024-01-15 08:34:14,INFO,Scheduler,Starting data load
+2024-01-15 08:34:22,INFO,Scheduler,Connection established to source system
+2024-01-15 08:34:31,DEBUG,DataLoader,Query plan: sequential scan on table orders
+2024-01-15 08:34:40,INFO,Validator,Starting data load
+2024-01-15 08:34:48,DEBUG,Validator,Entering function process_batch()
+2024-01-15 08:34:57,DEBUG,Validator,Entering function process_batch()
+2024-01-15 08:35:06,INFO,DataLoader,Connection established to source system
+2024-01-15 08:35:15,ERROR,Scheduler,Null value found in column: amount
+2024-01-15 08:35:23,INFO,Transformer,Checkpoint saved
+2024-01-15 08:35:32,DEBUG,Scheduler,Cache hit ratio: 4804%
+2024-01-15 08:35:41,ERROR,Transformer,Connection timeout after 1209 seconds
+2024-01-15 08:35:49,INFO,Transformer,Starting data load
+2024-01-15 08:35:58,ERROR,DataLoader,Failed to write output file: permission denied
+2024-01-15 08:36:07,INFO,Transformer,Checkpoint saved
+2024-01-15 08:36:16,INFO,DataLoader,Starting data load
+2024-01-15 08:36:24,INFO,DataLoader,Connection established to source system
+2024-01-15 08:36:33,WARN,DataLoader,Slow query detected: 4128ms
+2024-01-15 08:36:42,DEBUG,DataLoader,Variable state: batch_size=2471
+2024-01-15 08:36:50,ERROR,DataLoader,Null value found in column: amount
+2024-01-15 08:36:59,INFO,DataLoader,Connection established to source system
+2024-01-15 08:37:08,DEBUG,Validator,Variable state: batch_size=1216
+2024-01-15 08:37:16,INFO,Scheduler,Batch 4796 processed successfully
+2024-01-15 08:37:25,ERROR,Exporter,Unhandled exception: KeyError('customer_id')
+2024-01-15 08:37:34,WARN,Scheduler,Slow query detected: 813ms
+2024-01-15 08:37:43,DEBUG,Scheduler,Cache hit ratio: 3524%
+2024-01-15 08:37:51,DEBUG,Exporter,Memory usage: 3716MB
+2024-01-15 08:38:00,INFO,DataLoader,Job completed in 3497 seconds
+2024-01-15 08:38:09,ERROR,Validator,Null detected in field: user_id
+2024-01-15 08:38:17,INFO,DataLoader,File loaded successfully
+2024-01-15 08:38:26,ERROR,Validator,Duplicate primary key detected: 1066
+2024-01-15 08:38:35,INFO,Scheduler,Checkpoint saved
+2024-01-15 08:38:43,INFO,Exporter,Batch 422 processed successfully
+2024-01-15 08:38:52,WARN,Validator,"Record count mismatch: expected 4735, got 4157"
+2024-01-15 08:39:01,INFO,Exporter,Starting data load
+2024-01-15 08:39:10,DEBUG,Validator,Entering function process_batch()
+2024-01-15 08:39:18,INFO,Exporter,Checkpoint saved
+2024-01-15 08:39:27,WARN,Validator,"Record count mismatch: expected 1478, got 2239"
+2024-01-15 08:39:36,ERROR,Validator,Connection timeout after 2876 seconds
+2024-01-15 08:39:44,INFO,Transformer,Checkpoint saved
+2024-01-15 08:39:53,INFO,DataLoader,File loaded successfully
+2024-01-15 08:40:02,INFO,Exporter,Job completed in 1290 seconds
+2024-01-15 08:40:11,INFO,Validator,Checkpoint saved
+2024-01-15 08:40:19,DEBUG,Transformer,Cache hit ratio: 408%
+2024-01-15 08:40:28,INFO,Exporter,Connection established to source system
+2024-01-15 08:40:37,INFO,Transformer,Checkpoint saved
+2024-01-15 08:40:45,INFO,Validator,Batch 4859 processed successfully
+2024-01-15 08:40:54,WARN,Validator,"Record count mismatch: expected 1807, got 3238"
+2024-01-15 08:41:03,DEBUG,DataLoader,Entering function process_batch()
+2024-01-15 08:41:11,DEBUG,Transformer,Memory usage: 2372MB
+2024-01-15 08:41:20,INFO,Exporter,Batch 3528 processed successfully
+2024-01-15 08:41:29,INFO,Scheduler,Batch 1886 processed successfully
+2024-01-15 08:41:38,WARN,Validator,"Record count mismatch: expected 3253, got 347"
+2024-01-15 08:41:46,INFO,Exporter,File loaded successfully
+2024-01-15 08:41:55,INFO,Exporter,Batch 3422 processed successfully
+2024-01-15 08:42:04,INFO,DataLoader,Job completed in 1408 seconds
+2024-01-15 08:42:12,DEBUG,Validator,Entering function process_batch()
+2024-01-15 08:42:21,INFO,Scheduler,Connection established to source system
+2024-01-15 08:42:30,INFO,Validator,Batch 2782 processed successfully
+2024-01-15 08:42:38,INFO,Transformer,File loaded successfully
+2024-01-15 08:42:47,WARN,Transformer,Deprecated config key used: legacy_mode
+2024-01-15 08:42:56,INFO,Transformer,Job completed in 1617 seconds
+2024-01-15 08:43:05,WARN,DataLoader,"Retrying connection, attempt 4048"
+2024-01-15 08:43:13,ERROR,Scheduler,Schema validation failed for table: orders
+2024-01-15 08:43:22,DEBUG,Validator,Cache hit ratio: 3603%
+2024-01-15 08:43:31,WARN,Validator,Deprecated config key used: legacy_mode
+2024-01-15 08:43:39,INFO,DataLoader,Job completed in 3783 seconds
+2024-01-15 08:43:48,INFO,Validator,Job completed in 629 seconds
+2024-01-15 08:43:57,WARN,Scheduler,Slow query detected: 3791ms
+2024-01-15 08:44:06,WARN,DataLoader,Slow query detected: 4684ms
+2024-01-15 08:44:14,INFO,Exporter,Checkpoint saved
+2024-01-15 08:44:23,WARN,Validator,"Record count mismatch: expected 4134, got 1414"
+2024-01-15 08:44:32,INFO,Exporter,Connection established to source system
+2024-01-15 08:44:40,WARN,Validator,Deprecated config key used: legacy_mode
+2024-01-15 08:44:49,INFO,Validator,Batch 4898 processed successfully
+2024-01-15 08:44:58,ERROR,Validator,Null value found in column: amount
+2024-01-15 08:45:06,WARN,Exporter,Deprecated config key used: legacy_mode
+2024-01-15 08:45:15,DEBUG,Validator,Entering function process_batch()
+2024-01-15 08:45:24,DEBUG,Validator,Query plan: sequential scan on table orders
+2024-01-15 08:45:33,ERROR,DataLoader,Connection timeout after 4579 seconds
+2024-01-15 08:45:41,ERROR,Validator,Duplicate primary key detected: 1047
+2024-01-15 08:45:50,INFO,Exporter,Checkpoint saved
+2024-01-15 08:45:59,INFO,Transformer,Starting data load
+2024-01-15 08:46:07,INFO,Transformer,Starting data load
+2024-01-15 08:46:16,DEBUG,DataLoader,Variable state: batch_size=4422
+2024-01-15 08:46:25,INFO,Validator,Checkpoint saved
+2024-01-15 08:46:34,INFO,Transformer,Starting data load
+2024-01-15 08:46:42,INFO,Validator,Batch 1946 processed successfully
+2024-01-15 08:46:51,WARN,Exporter,"Retrying connection, attempt 4375"
+2024-01-15 08:47:00,INFO,Exporter,Starting data load
+2024-01-15 08:47:08,DEBUG,Exporter,Memory usage: 3129MB
+2024-01-15 08:47:17,WARN,Transformer,"Retrying connection, attempt 4954"
+2024-01-15 08:47:26,DEBUG,DataLoader,Query plan: sequential scan on table orders
+2024-01-15 08:47:34,DEBUG,Scheduler,Entering function process_batch()
+2024-01-15 08:47:43,ERROR,Validator,Schema validation failed for table: orders
+2024-01-15 08:47:52,DEBUG,DataLoader,Cache hit ratio: 3696%
+2024-01-15 08:48:01,DEBUG,Exporter,Entering function process_batch()
+2024-01-15 08:48:09,INFO,Exporter,File loaded successfully
+2024-01-15 08:48:18,INFO,DataLoader,Batch 2747 processed successfully
+2024-01-15 08:48:27,INFO,Validator,Connection established to source system
+2024-01-15 08:48:35,INFO,DataLoader,File loaded successfully
+2024-01-15 08:48:44,INFO,Transformer,Checkpoint saved
+2024-01-15 08:48:53,INFO,Validator,Starting data load
+2024-01-15 08:49:01,INFO,Exporter,Batch 3745 processed successfully
+2024-01-15 08:49:10,INFO,Exporter,Checkpoint saved
+2024-01-15 08:49:19,ERROR,Scheduler,Null detected in field: user_id
+2024-01-15 08:49:28,INFO,Scheduler,Job completed in 1971 seconds
+2024-01-15 08:49:36,INFO,DataLoader,Checkpoint saved
+2024-01-15 08:49:45,DEBUG,Scheduler,Variable state: batch_size=4159
+2024-01-15 08:49:54,INFO,Exporter,File loaded successfully
+2024-01-15 08:50:02,INFO,DataLoader,Job completed in 554 seconds
+2024-01-15 08:50:11,INFO,DataLoader,Checkpoint saved
+2024-01-15 08:50:20,INFO,Scheduler,Job completed in 1435 seconds
+2024-01-15 08:50:29,DEBUG,Exporter,Cache hit ratio: 1105%
+2024-01-15 08:50:37,ERROR,Exporter,Null value found in column: amount
+2024-01-15 08:50:46,INFO,Transformer,File loaded successfully
+2024-01-15 08:50:55,WARN,Scheduler,Slow query detected: 2076ms
+2024-01-15 08:51:03,ERROR,Transformer,Connection timeout after 2925 seconds
+2024-01-15 08:51:12,DEBUG,Validator,Memory usage: 1020MB
+2024-01-15 08:51:21,INFO,Exporter,Batch 3603 processed successfully
+2024-01-15 08:51:29,INFO,Transformer,Connection established to source system
+2024-01-15 08:51:38,DEBUG,Scheduler,Memory usage: 677MB
+2024-01-15 08:51:47,INFO,Scheduler,Starting data load
+2024-01-15 08:51:56,INFO,DataLoader,Job completed in 2422 seconds
+2024-01-15 08:52:04,INFO,Exporter,Starting data load
+2024-01-15 08:52:13,INFO,Validator,Checkpoint saved
+2024-01-15 08:52:22,ERROR,DataLoader,Null value found in column: amount
+2024-01-15 08:52:30,WARN,Transformer,"Record count mismatch: expected 1170, got 4978"
+2024-01-15 08:52:39,ERROR,Exporter,Null value found in column: amount
+2024-01-15 08:52:48,INFO,Validator,Job completed in 3137 seconds
+2024-01-15 08:52:56,INFO,Transformer,Batch 3686 processed successfully
+2024-01-15 08:53:05,INFO,DataLoader,Checkpoint saved
+2024-01-15 08:53:14,INFO,Validator,Batch 2284 processed successfully
+2024-01-15 08:53:23,DEBUG,DataLoader,Cache hit ratio: 4089%
+2024-01-15 08:53:31,INFO,Scheduler,File loaded successfully
+2024-01-15 08:53:40,ERROR,Transformer,Unhandled exception: KeyError('customer_id')
+2024-01-15 08:53:49,INFO,Transformer,File loaded successfully
+2024-01-15 08:53:57,DEBUG,Exporter,Entering function process_batch()
+2024-01-15 08:54:06,ERROR,Scheduler,Unhandled exception: KeyError('customer_id')
+2024-01-15 08:54:15,DEBUG,Transformer,Memory usage: 4168MB
+2024-01-15 08:54:24,INFO,Transformer,Starting data load
+2024-01-15 08:54:32,INFO,Scheduler,Checkpoint saved
+2024-01-15 08:54:41,ERROR,Scheduler,Null detected in field: user_id
+2024-01-15 08:54:50,INFO,Exporter,Checkpoint saved
+2024-01-15 08:54:58,DEBUG,DataLoader,Cache hit ratio: 2598%
+2024-01-15 08:55:07,INFO,Scheduler,Job completed in 1052 seconds
+2024-01-15 08:55:16,ERROR,Transformer,Duplicate primary key detected: 1058
+2024-01-15 08:55:24,WARN,DataLoader,"Record count mismatch: expected 4245, got 1254"
+2024-01-15 08:55:33,INFO,Transformer,Job completed in 1848 seconds
+2024-01-15 08:55:42,DEBUG,Scheduler,Memory usage: 647MB
+2024-01-15 08:55:51,INFO,Scheduler,Job completed in 1026 seconds
+2024-01-15 08:55:59,WARN,DataLoader,"Partial batch processed, 1382 records skipped"
+2024-01-15 08:56:08,DEBUG,Transformer,Cache hit ratio: 4958%
+2024-01-15 08:56:17,DEBUG,Scheduler,Entering function process_batch()
+2024-01-15 08:56:25,INFO,Scheduler,Job completed in 1727 seconds
+2024-01-15 08:56:34,INFO,DataLoader,Connection established to source system
+2024-01-15 08:56:43,ERROR,Validator,Schema validation failed for table: orders
+2024-01-15 08:56:51,INFO,DataLoader,Batch 491 processed successfully
+2024-01-15 08:57:00,INFO,Exporter,Connection established to source system
+2024-01-15 08:57:09,WARN,Validator,Deprecated config key used: legacy_mode
+2024-01-15 08:57:18,INFO,Validator,Checkpoint saved
+2024-01-15 08:57:26,INFO,Exporter,File loaded successfully
+2024-01-15 08:57:35,INFO,DataLoader,File loaded successfully
+2024-01-15 08:57:44,DEBUG,Exporter,Cache hit ratio: 1309%
+2024-01-15 08:57:52,DEBUG,Validator,Cache hit ratio: 1306%
+2024-01-15 08:58:01,DEBUG,Exporter,Query plan: sequential scan on table orders
+2024-01-15 08:58:10,INFO,Exporter,Checkpoint saved
+2024-01-15 08:58:19,INFO,Validator,File loaded successfully
+2024-01-15 08:58:27,WARN,Exporter,Deprecated config key used: legacy_mode
+2024-01-15 08:58:36,DEBUG,Exporter,Cache hit ratio: 2167%
+2024-01-15 08:58:45,ERROR,Validator,Null value found in column: amount
+2024-01-15 08:58:53,WARN,Transformer,Deprecated config key used: legacy_mode
+2024-01-15 08:59:02,INFO,Scheduler,Connection established to source system
+2024-01-15 08:59:11,DEBUG,Scheduler,Variable state: batch_size=974
+2024-01-15 08:59:19,DEBUG,Exporter,Memory usage: 2778MB
+2024-01-15 08:59:28,DEBUG,Transformer,Cache hit ratio: 4936%
+2024-01-15 08:59:37,INFO,DataLoader,File loaded successfully
+2024-01-15 08:59:46,ERROR,Exporter,Unhandled exception: KeyError('customer_id')
+2024-01-15 08:59:54,WARN,Scheduler,"Retrying connection, attempt 2687"
+2024-01-15 09:00:03,INFO,Scheduler,Batch 2452 processed successfully
+2024-01-15 09:00:12,INFO,Scheduler,Checkpoint saved
+2024-01-15 09:00:20,INFO,DataLoader,Job completed in 2714 seconds
+2024-01-15 09:00:29,DEBUG,Scheduler,Memory usage: 219MB
+2024-01-15 09:00:38,WARN,Scheduler,"Partial batch processed, 1865 records skipped"
+2024-01-15 09:00:47,WARN,Transformer,"Partial batch processed, 3115 records skipped"
+2024-01-15 09:00:55,DEBUG,Transformer,Entering function process_batch()
+2024-01-15 09:01:04,INFO,Exporter,Job completed in 3431 seconds
+2024-01-15 09:01:13,INFO,Transformer,Connection established to source system
+2024-01-15 09:01:21,DEBUG,DataLoader,Cache hit ratio: 4250%
+2024-01-15 09:01:30,WARN,Exporter,"Partial batch processed, 3087 records skipped"
+2024-01-15 09:01:39,DEBUG,Exporter,Variable state: batch_size=2805
+2024-01-15 09:01:47,INFO,Validator,Checkpoint saved
+2024-01-15 09:01:56,DEBUG,Validator,Variable state: batch_size=2446
+2024-01-15 09:02:05,DEBUG,Validator,Memory usage: 1699MB
+2024-01-15 09:02:14,INFO,Validator,Checkpoint saved
+2024-01-15 09:02:22,INFO,Scheduler,Connection established to source system
+2024-01-15 09:02:31,DEBUG,Transformer,Memory usage: 345MB
+2024-01-15 09:02:40,DEBUG,DataLoader,Memory usage: 3624MB
+2024-01-15 09:02:48,ERROR,Transformer,Null detected in field: user_id
+2024-01-15 09:02:57,DEBUG,Validator,Cache hit ratio: 895%
+2024-01-15 09:03:06,INFO,DataLoader,Batch 4351 processed successfully
+2024-01-15 09:03:14,ERROR,DataLoader,Null value found in column: amount
+2024-01-15 09:03:23,ERROR,DataLoader,Failed to write output file: permission denied
+2024-01-15 09:03:32,DEBUG,Transformer,Query plan: sequential scan on table orders
+2024-01-15 09:03:41,ERROR,Validator,Connection timeout after 2339 seconds
+2024-01-15 09:03:49,DEBUG,DataLoader,Variable state: batch_size=1903
+2024-01-15 09:03:58,ERROR,DataLoader,Null detected in field: user_id
+2024-01-15 09:04:07,DEBUG,DataLoader,Query plan: sequential scan on table orders
+2024-01-15 09:04:15,DEBUG,Validator,Entering function process_batch()
+2024-01-15 09:04:24,WARN,DataLoader,Deprecated config key used: legacy_mode
+2024-01-15 09:04:33,DEBUG,Scheduler,Variable state: batch_size=4047
+2024-01-15 09:04:42,DEBUG,Exporter,Memory usage: 1580MB
+2024-01-15 09:04:50,INFO,Exporter,Batch 2108 processed successfully
+2024-01-15 09:04:59,INFO,Validator,Job completed in 4652 seconds
+2024-01-15 09:05:08,INFO,Exporter,Connection established to source system
+2024-01-15 09:05:16,INFO,DataLoader,Starting data load
+2024-01-15 09:05:25,INFO,Transformer,File loaded successfully
+2024-01-15 09:05:34,INFO,Validator,Job completed in 2474 seconds
+2024-01-15 09:05:42,ERROR,DataLoader,Connection timeout after 2946 seconds
+2024-01-15 09:05:51,INFO,DataLoader,Connection established to source system
+2024-01-15 09:06:00,INFO,Scheduler,Batch 2548 processed successfully
+2024-01-15 09:06:09,ERROR,Validator,Connection timeout after 1810 seconds
+2024-01-15 09:06:17,DEBUG,Exporter,Cache hit ratio: 3728%
+2024-01-15 09:06:26,INFO,Scheduler,Connection established to source system
+2024-01-15 09:06:35,ERROR,Scheduler,Duplicate primary key detected: 671
+2024-01-15 09:06:43,INFO,Validator,File loaded successfully
+2024-01-15 09:06:52,INFO,Scheduler,Checkpoint saved
+2024-01-15 09:07:01,WARN,Transformer,Deprecated config key used: legacy_mode
+2024-01-15 09:07:09,INFO,Transformer,Batch 4778 processed successfully
+2024-01-15 09:07:18,INFO,Scheduler,Connection established to source system
+2024-01-15 09:07:27,INFO,Exporter,Connection established to source system
+2024-01-15 09:07:36,WARN,Validator,"Record count mismatch: expected 3244, got 2085"
+2024-01-15 09:07:44,ERROR,Transformer,Unhandled exception: KeyError('customer_id')
+2024-01-15 09:07:53,INFO,DataLoader,Checkpoint saved
+2024-01-15 09:08:02,DEBUG,Exporter,Entering function process_batch()
+2024-01-15 09:08:10,INFO,Transformer,Batch 3444 processed successfully
+2024-01-15 09:08:19,DEBUG,Exporter,Query plan: sequential scan on table orders
+2024-01-15 09:08:28,INFO,Scheduler,Starting data load
+2024-01-15 09:08:37,INFO,Scheduler,Connection established to source system
+2024-01-15 09:08:45,ERROR,Transformer,Duplicate primary key detected: 29
+2024-01-15 09:08:54,DEBUG,Exporter,Variable state: batch_size=3475
+2024-01-15 09:09:03,INFO,Transformer,Starting data load
+2024-01-15 09:09:11,INFO,Transformer,Batch 925 processed successfully
+2024-01-15 09:09:20,ERROR,Exporter,Unhandled exception: KeyError('customer_id')
+2024-01-15 09:09:29,INFO,DataLoader,Checkpoint saved
+2024-01-15 09:09:37,WARN,DataLoader,"Retrying connection, attempt 363"
+2024-01-15 09:09:46,INFO,Scheduler,Starting data load
+2024-01-15 09:09:55,WARN,Validator,"Retrying connection, attempt 4720"
+2024-01-15 09:10:04,WARN,Validator,"Retrying connection, attempt 2473"
+2024-01-15 09:10:12,DEBUG,Scheduler,Cache hit ratio: 3388%
+2024-01-15 09:10:21,INFO,Scheduler,Checkpoint saved
+2024-01-15 09:10:30,WARN,DataLoader,Deprecated config key used: legacy_mode
+2024-01-15 09:10:38,INFO,Exporter,Connection established to source system
+2024-01-15 09:10:47,INFO,Scheduler,Connection established to source system
+2024-01-15 09:10:56,INFO,Transformer,Connection established to source system
+2024-01-15 09:11:04,INFO,Exporter,Checkpoint saved
+2024-01-15 09:11:13,INFO,Validator,Starting data load
+2024-01-15 09:11:22,DEBUG,Validator,Entering function process_batch()
+2024-01-15 09:11:31,INFO,Exporter,Batch 4956 processed successfully
+2024-01-15 09:11:39,INFO,DataLoader,Starting data load
+2024-01-15 09:11:48,INFO,Transformer,Job completed in 2484 seconds
+2024-01-15 09:11:57,INFO,Transformer,Batch 962 processed successfully
+2024-01-15 09:12:05,DEBUG,Scheduler,Cache hit ratio: 3250%
+2024-01-15 09:12:14,WARN,Validator,Slow query detected: 3820ms
+2024-01-15 09:12:23,ERROR,Validator,Connection timeout after 2947 seconds
+2024-01-15 09:12:32,DEBUG,Exporter,Entering function process_batch()
+2024-01-15 09:12:40,DEBUG,Validator,Memory usage: 3391MB
+2024-01-15 09:12:49,WARN,Transformer,"Retrying connection, attempt 133"
+2024-01-15 09:12:58,WARN,Scheduler,"Partial batch processed, 3421 records skipped"
+2024-01-15 09:13:06,INFO,Validator,Starting data load
+2024-01-15 09:13:15,DEBUG,Exporter,Variable state: batch_size=2766
+2024-01-15 09:13:24,ERROR,Exporter,Failed to write output file: permission denied
+2024-01-15 09:13:32,INFO,Validator,Starting data load
+2024-01-15 09:13:41,WARN,Scheduler,"Record count mismatch: expected 4293, got 278"
+2024-01-15 09:13:50,DEBUG,DataLoader,Entering function process_batch()
+2024-01-15 09:13:59,INFO,Transformer,File loaded successfully
+2024-01-15 09:14:07,INFO,Exporter,Job completed in 496 seconds
+2024-01-15 09:14:16,ERROR,DataLoader,Null value found in column: amount
+2024-01-15 09:14:25,INFO,DataLoader,Checkpoint saved
+2024-01-15 09:14:33,DEBUG,DataLoader,Variable state: batch_size=3528
+2024-01-15 09:14:42,INFO,DataLoader,Checkpoint saved
+2024-01-15 09:14:51,INFO,Scheduler,Job completed in 2904 seconds
+2024-01-15 09:15:00,ERROR,DataLoader,Connection timeout after 3327 seconds
+2024-01-15 09:15:08,WARN,Transformer,Deprecated config key used: legacy_mode
+2024-01-15 09:15:17,INFO,Exporter,Connection established to source system
+2024-01-15 09:15:26,INFO,DataLoader,Batch 1404 processed successfully
+2024-01-15 09:15:34,WARN,Exporter,Deprecated config key used: legacy_mode
+2024-01-15 09:15:43,DEBUG,DataLoader,Cache hit ratio: 1732%
+2024-01-15 09:15:52,WARN,DataLoader,"Record count mismatch: expected 2297, got 4449"
+2024-01-15 09:16:00,WARN,DataLoader,"Retrying connection, attempt 2577"
+2024-01-15 09:16:09,DEBUG,Scheduler,Cache hit ratio: 3263%
+2024-01-15 09:16:18,INFO,Scheduler,Starting data load
+2024-01-15 09:16:27,ERROR,Scheduler,Connection timeout after 3145 seconds
+2024-01-15 09:16:35,ERROR,DataLoader,Unhandled exception: KeyError('customer_id')
+2024-01-15 09:16:44,INFO,Transformer,File loaded successfully
+2024-01-15 09:16:53,ERROR,Scheduler,Schema validation failed for table: orders
+2024-01-15 09:17:01,ERROR,Exporter,Schema validation failed for table: orders
+2024-01-15 09:17:10,WARN,Exporter,Slow query detected: 1522ms
+2024-01-15 09:17:19,ERROR,DataLoader,Duplicate primary key detected: 2420
+2024-01-15 09:17:27,ERROR,DataLoader,Connection timeout after 1264 seconds
+2024-01-15 09:17:36,ERROR,Transformer,Failed to write output file: permission denied
+2024-01-15 09:17:45,INFO,DataLoader,File loaded successfully
+2024-01-15 09:17:54,INFO,Validator,File loaded successfully
+2024-01-15 09:18:02,INFO,Exporter,Checkpoint saved
+2024-01-15 09:18:11,INFO,DataLoader,File loaded successfully
+2024-01-15 09:18:20,INFO,Scheduler,Job completed in 3156 seconds
+2024-01-15 09:18:28,INFO,Exporter,File loaded successfully
+2024-01-15 09:18:37,WARN,Transformer,Slow query detected: 1389ms
+2024-01-15 09:18:46,INFO,Validator,Connection established to source system
+2024-01-15 09:18:55,INFO,Validator,Connection established to source system
+2024-01-15 09:19:03,ERROR,Validator,Connection timeout after 2021 seconds
+2024-01-15 09:19:12,WARN,Transformer,Slow query detected: 877ms
+2024-01-15 09:19:21,INFO,Exporter,Job completed in 3113 seconds
+2024-01-15 09:19:29,INFO,Exporter,Batch 4870 processed successfully
+2024-01-15 09:19:38,INFO,Scheduler,Batch 1646 processed successfully
+2024-01-15 09:19:47,INFO,Exporter,Job completed in 2388 seconds
+2024-01-15 09:19:55,DEBUG,Transformer,Memory usage: 3081MB
+2024-01-15 09:20:04,ERROR,Exporter,Connection timeout after 933 seconds
+2024-01-15 09:20:13,INFO,Scheduler,Starting data load
+2024-01-15 09:20:22,DEBUG,Exporter,Cache hit ratio: 3592%
+2024-01-15 09:20:30,DEBUG,DataLoader,Query plan: sequential scan on table orders
+2024-01-15 09:20:39,ERROR,Transformer,Connection timeout after 1263 seconds
+2024-01-15 09:20:48,ERROR,DataLoader,Schema validation failed for table: orders
+2024-01-15 09:20:56,WARN,Scheduler,"Partial batch processed, 3427 records skipped"
+2024-01-15 09:21:05,INFO,Validator,Batch 4399 processed successfully
+2024-01-15 09:21:14,ERROR,DataLoader,Null value found in column: amount
+2024-01-15 09:21:22,INFO,Scheduler,File loaded successfully
+2024-01-15 09:21:31,DEBUG,Validator,Query plan: sequential scan on table orders
+2024-01-15 09:21:40,INFO,Transformer,Checkpoint saved
+2024-01-15 09:21:49,WARN,Scheduler,"Retrying connection, attempt 3652"
+2024-01-15 09:21:57,INFO,Scheduler,Batch 4100 processed successfully
+2024-01-15 09:22:06,INFO,DataLoader,Connection established to source system
+2024-01-15 09:22:15,INFO,DataLoader,File loaded successfully
+2024-01-15 09:22:23,INFO,Exporter,Starting data load
+2024-01-15 09:22:32,INFO,DataLoader,Connection established to source system
+2024-01-15 09:22:41,INFO,DataLoader,Batch 943 processed successfully
+2024-01-15 09:22:50,DEBUG,DataLoader,Cache hit ratio: 1999%
+2024-01-15 09:22:58,INFO,Transformer,Job completed in 4587 seconds
+2024-01-15 09:23:07,DEBUG,Transformer,Query plan: sequential scan on table orders
+2024-01-15 09:23:16,ERROR,Exporter,Schema validation failed for table: orders
+2024-01-15 09:23:24,INFO,Exporter,Connection established to source system
+2024-01-15 09:23:33,INFO,DataLoader,Checkpoint saved
+2024-01-15 09:23:42,INFO,Validator,Starting data load
+2024-01-15 09:23:50,INFO,Exporter,Checkpoint saved
+2024-01-15 09:23:59,INFO,Exporter,Checkpoint saved
+2024-01-15 09:24:08,INFO,Exporter,Checkpoint saved
+2024-01-15 09:24:17,DEBUG,Scheduler,Entering function process_batch()
+2024-01-15 09:24:25,INFO,Validator,File loaded successfully
+2024-01-15 09:24:34,ERROR,Scheduler,Schema validation failed for table: orders
+2024-01-15 09:24:43,INFO,Exporter,Connection established to source system
+2024-01-15 09:24:51,ERROR,Transformer,Unhandled exception: KeyError('customer_id')
+2024-01-15 09:25:00,INFO,Transformer,Job completed in 3695 seconds
+2024-01-15 09:25:09,DEBUG,DataLoader,Query plan: sequential scan on table orders
+2024-01-15 09:25:17,ERROR,Scheduler,Unhandled exception: KeyError('customer_id')
+2024-01-15 09:25:26,ERROR,Exporter,Failed to write output file: permission denied
+2024-01-15 09:25:35,INFO,Scheduler,File loaded successfully
+2024-01-15 09:25:44,INFO,Transformer,Checkpoint saved
+2024-01-15 09:25:52,ERROR,Scheduler,Failed to write output file: permission denied
+2024-01-15 09:26:01,WARN,Scheduler,"Record count mismatch: expected 2195, got 4450"
+2024-01-15 09:26:10,DEBUG,Validator,Variable state: batch_size=341
+2024-01-15 09:26:18,WARN,Exporter,"Record count mismatch: expected 2028, got 2439"
+2024-01-15 09:26:27,DEBUG,DataLoader,Query plan: sequential scan on table orders
+2024-01-15 09:26:36,DEBUG,DataLoader,Query plan: sequential scan on table orders
+2024-01-15 09:26:45,INFO,Scheduler,Batch 2873 processed successfully
+2024-01-15 09:26:53,ERROR,Transformer,Unhandled exception: KeyError('customer_id')
+2024-01-15 09:27:02,ERROR,DataLoader,Unhandled exception: KeyError('customer_id')
+2024-01-15 09:27:11,INFO,Scheduler,Starting data load
+2024-01-15 09:27:19,INFO,Validator,Checkpoint saved
+2024-01-15 09:27:28,DEBUG,Exporter,Entering function process_batch()
+2024-01-15 09:27:37,ERROR,Transformer,Null detected in field: user_id
+2024-01-15 09:27:45,DEBUG,Exporter,Query plan: sequential scan on table orders
+2024-01-15 09:27:54,ERROR,Exporter,Schema validation failed for table: orders
+2024-01-15 09:28:03,ERROR,DataLoader,Schema validation failed for table: orders
+2024-01-15 09:28:12,ERROR,Validator,Schema validation failed for table: orders
+2024-01-15 09:28:20,WARN,DataLoader,Slow query detected: 2935ms
+2024-01-15 09:28:29,ERROR,Exporter,Null detected in field: user_id
+2024-01-15 09:28:38,WARN,Validator,Deprecated config key used: legacy_mode
+2024-01-15 09:28:46,WARN,Scheduler,Slow query detected: 2816ms
+2024-01-15 09:28:55,INFO,Exporter,File loaded successfully
+2024-01-15 09:29:04,INFO,DataLoader,Connection established to source system
+2024-01-15 09:29:12,DEBUG,Validator,Cache hit ratio: 2245%
+2024-01-15 09:29:21,ERROR,Validator,Null value found in column: amount
+2024-01-15 09:29:30,INFO,Validator,Batch 1919 processed successfully
+2024-01-15 09:29:39,ERROR,DataLoader,Null value found in column: amount
+2024-01-15 09:29:47,INFO,Scheduler,Starting data load
+2024-01-15 09:29:56,INFO,Validator,File loaded successfully
+2024-01-15 09:30:05,WARN,Transformer,Slow query detected: 732ms
+2024-01-15 09:30:13,INFO,Validator,Job completed in 1124 seconds
+2024-01-15 09:30:22,ERROR,Transformer,Failed to write output file: permission denied
+2024-01-15 09:30:31,WARN,DataLoader,"Partial batch processed, 1345 records skipped"
+2024-01-15 09:30:40,INFO,Transformer,Batch 1241 processed successfully
+2024-01-15 09:30:48,WARN,Exporter,"Retrying connection, attempt 711"
+2024-01-15 09:30:57,INFO,DataLoader,Checkpoint saved
+2024-01-15 09:31:06,DEBUG,Validator,Cache hit ratio: 2030%
+2024-01-15 09:31:14,ERROR,Transformer,Unhandled exception: KeyError('customer_id')
+2024-01-15 09:31:23,ERROR,Validator,Duplicate primary key detected: 220
+2024-01-15 09:31:32,INFO,Scheduler,Checkpoint saved
+2024-01-15 09:31:40,INFO,DataLoader,Starting data load
+2024-01-15 09:31:49,INFO,Exporter,Batch 4866 processed successfully
+2024-01-15 09:31:58,WARN,DataLoader,Deprecated config key used: legacy_mode
+2024-01-15 09:32:07,INFO,Scheduler,Connection established to source system
+2024-01-15 09:32:15,ERROR,Exporter,Duplicate primary key detected: 598
+2024-01-15 09:32:24,WARN,DataLoader,Deprecated config key used: legacy_mode
+2024-01-15 09:32:33,DEBUG,Exporter,Variable state: batch_size=2347
+2024-01-15 09:32:41,ERROR,Exporter,Failed to write output file: permission denied
+2024-01-15 09:32:50,ERROR,Scheduler,Unhandled exception: KeyError('customer_id')
+2024-01-15 09:32:59,INFO,DataLoader,Checkpoint saved
+2024-01-15 09:33:08,WARN,Exporter,"Partial batch processed, 542 records skipped"
+2024-01-15 09:33:16,ERROR,Transformer,Null value found in column: amount
+2024-01-15 09:33:25,DEBUG,DataLoader,Query plan: sequential scan on table orders
+2024-01-15 09:33:34,INFO,Transformer,File loaded successfully
+2024-01-15 09:33:42,ERROR,Transformer,Schema validation failed for table: orders
+2024-01-15 09:33:51,WARN,Validator,"Retrying connection, attempt 3047"
+2024-01-15 09:34:00,ERROR,Validator,Failed to write output file: permission denied
+2024-01-15 09:34:08,INFO,Exporter,Job completed in 4292 seconds
+2024-01-15 09:34:17,INFO,Scheduler,Batch 632 processed successfully
+2024-01-15 09:34:26,WARN,Validator,"Record count mismatch: expected 4093, got 4644"
+2024-01-15 09:34:35,INFO,Transformer,Job completed in 843 seconds
+2024-01-15 09:34:43,ERROR,DataLoader,Null detected in field: user_id
+2024-01-15 09:34:52,INFO,DataLoader,Starting data load
+2024-01-15 09:35:01,INFO,Transformer,Starting data load
+2024-01-15 09:35:09,ERROR,Exporter,Null detected in field: user_id
+2024-01-15 09:35:18,INFO,Validator,Job completed in 639 seconds
+2024-01-15 09:35:27,INFO,Scheduler,Batch 432 processed successfully
+2024-01-15 09:35:35,INFO,Scheduler,File loaded successfully
+2024-01-15 09:35:44,DEBUG,Validator,Memory usage: 2682MB
+2024-01-15 09:35:53,WARN,DataLoader,Deprecated config key used: legacy_mode
+2024-01-15 09:36:02,WARN,Validator,"Partial batch processed, 1988 records skipped"
+2024-01-15 09:36:10,INFO,Exporter,Starting data load
+2024-01-15 09:36:19,INFO,Exporter,File loaded successfully
+2024-01-15 09:36:28,INFO,DataLoader,Job completed in 12 seconds
+2024-01-15 09:36:36,DEBUG,Validator,Entering function process_batch()
+2024-01-15 09:36:45,DEBUG,Exporter,Query plan: sequential scan on table orders
+2024-01-15 09:36:54,ERROR,DataLoader,Null value found in column: amount
+2024-01-15 09:37:03,INFO,Validator,Connection established to source system
+2024-01-15 09:37:11,INFO,Transformer,Batch 3231 processed successfully
+2024-01-15 09:37:20,WARN,DataLoader,Slow query detected: 1071ms
+2024-01-15 09:37:29,INFO,Validator,Connection established to source system
+2024-01-15 09:37:37,WARN,Transformer,"Record count mismatch: expected 1661, got 1116"
+2024-01-15 09:37:46,ERROR,Scheduler,Null value found in column: amount
+2024-01-15 09:37:55,INFO,Exporter,Job completed in 3331 seconds
+2024-01-15 09:38:03,WARN,Transformer,Slow query detected: 2526ms
+2024-01-15 09:38:12,INFO,DataLoader,File loaded successfully
+2024-01-15 09:38:21,DEBUG,Scheduler,Entering function process_batch()
+2024-01-15 09:38:30,INFO,Transformer,Job completed in 3247 seconds
+2024-01-15 09:38:38,INFO,Validator,Job completed in 1425 seconds
+2024-01-15 09:38:47,DEBUG,Exporter,Variable state: batch_size=4507
+2024-01-15 09:38:56,INFO,DataLoader,Starting data load
+2024-01-15 09:39:04,INFO,Transformer,Starting data load
+2024-01-15 09:39:13,INFO,DataLoader,Checkpoint saved
+2024-01-15 09:39:22,DEBUG,DataLoader,Entering function process_batch()
+2024-01-15 09:39:30,DEBUG,Exporter,Cache hit ratio: 754%
+2024-01-15 09:39:39,INFO,Exporter,File loaded successfully
+2024-01-15 09:39:48,INFO,Exporter,Connection established to source system
+2024-01-15 09:39:57,ERROR,Transformer,Connection timeout after 1759 seconds
+2024-01-15 09:40:05,INFO,Exporter,Starting data load
+2024-01-15 09:40:14,ERROR,Exporter,Schema validation failed for table: orders
+2024-01-15 09:40:23,INFO,Validator,Connection established to source system
+2024-01-15 09:40:31,INFO,Scheduler,Starting data load
+2024-01-15 09:40:40,DEBUG,Validator,Query plan: sequential scan on table orders
+2024-01-15 09:40:49,INFO,Scheduler,Checkpoint saved
+2024-01-15 09:40:58,INFO,DataLoader,Job completed in 4892 seconds
+2024-01-15 09:41:06,INFO,Validator,File loaded successfully
+2024-01-15 09:41:15,INFO,Scheduler,Starting data load
+2024-01-15 09:41:24,INFO,Transformer,Job completed in 4372 seconds
+2024-01-15 09:41:32,ERROR,Transformer,Unhandled exception: KeyError('customer_id')
+2024-01-15 09:41:41,DEBUG,Transformer,Cache hit ratio: 1938%
+2024-01-15 09:41:50,INFO,Validator,Checkpoint saved
+2024-01-15 09:41:58,DEBUG,Scheduler,Cache hit ratio: 4613%
+2024-01-15 09:42:07,DEBUG,Exporter,Variable state: batch_size=2532
+2024-01-15 09:42:16,WARN,DataLoader,"Record count mismatch: expected 1906, got 4929"
+2024-01-15 09:42:25,INFO,Scheduler,Connection established to source system
+2024-01-15 09:42:33,DEBUG,Transformer,Cache hit ratio: 2792%
+2024-01-15 09:42:42,DEBUG,Validator,Entering function process_batch()
+2024-01-15 09:42:51,WARN,Transformer,"Record count mismatch: expected 4312, got 2990"
+2024-01-15 09:42:59,DEBUG,Validator,Query plan: sequential scan on table orders
+2024-01-15 09:43:08,INFO,Validator,Starting data load
+2024-01-15 09:43:17,ERROR,Exporter,Failed to write output file: permission denied
+2024-01-15 09:43:25,ERROR,Scheduler,Failed to write output file: permission denied
+2024-01-15 09:43:34,ERROR,Transformer,Schema validation failed for table: orders
+2024-01-15 09:43:43,INFO,DataLoader,Batch 4693 processed successfully
+2024-01-15 09:43:52,DEBUG,Scheduler,Entering function process_batch()
+2024-01-15 09:44:00,INFO,Scheduler,Starting data load
+2024-01-15 09:44:09,DEBUG,Transformer,Memory usage: 638MB
+2024-01-15 09:44:18,INFO,Validator,Starting data load
+2024-01-15 09:44:26,INFO,Validator,Starting data load
+2024-01-15 09:44:35,INFO,DataLoader,Batch 11 processed successfully
+2024-01-15 09:44:44,INFO,Exporter,Starting data load
+2024-01-15 09:44:53,DEBUG,Validator,Variable state: batch_size=3075
+2024-01-15 09:45:01,DEBUG,Scheduler,Cache hit ratio: 1333%
+2024-01-15 09:45:10,INFO,DataLoader,Job completed in 165 seconds
+2024-01-15 09:45:19,INFO,DataLoader,File loaded successfully
+2024-01-15 09:45:27,DEBUG,Transformer,Entering function process_batch()
+2024-01-15 09:45:36,INFO,Scheduler,Connection established to source system
+2024-01-15 09:45:45,DEBUG,Transformer,Variable state: batch_size=3557
+2024-01-15 09:45:53,INFO,Validator,Starting data load
+2024-01-15 09:46:02,ERROR,Scheduler,Connection timeout after 2307 seconds
+2024-01-15 09:46:11,INFO,DataLoader,Connection established to source system
+2024-01-15 09:46:20,DEBUG,Transformer,Entering function process_batch()
+2024-01-15 09:46:28,INFO,Validator,Batch 4917 processed successfully
+2024-01-15 09:46:37,INFO,DataLoader,Starting data load
+2024-01-15 09:46:46,DEBUG,Exporter,Entering function process_batch()
+2024-01-15 09:46:54,WARN,Validator,"Record count mismatch: expected 4458, got 3175"
+2024-01-15 09:47:03,INFO,Exporter,Job completed in 1529 seconds
+2024-01-15 09:47:12,INFO,Exporter,Connection established to source system
+2024-01-15 09:47:21,DEBUG,Scheduler,Entering function process_batch()
+2024-01-15 09:47:29,INFO,Validator,Checkpoint saved
+2024-01-15 09:47:38,INFO,DataLoader,Connection established to source system
+2024-01-15 09:47:47,DEBUG,Exporter,Variable state: batch_size=1931
+2024-01-15 09:47:55,INFO,Exporter,Batch 285 processed successfully
+2024-01-15 09:48:04,WARN,Scheduler,"Partial batch processed, 1208 records skipped"
+2024-01-15 09:48:13,DEBUG,Exporter,Cache hit ratio: 1370%
+2024-01-15 09:48:21,ERROR,Transformer,Null value found in column: amount
+2024-01-15 09:48:30,DEBUG,Exporter,Cache hit ratio: 1212%
+2024-01-15 09:48:39,INFO,DataLoader,File loaded successfully
+2024-01-15 09:48:48,INFO,Validator,Job completed in 4258 seconds
+2024-01-15 09:48:56,DEBUG,DataLoader,Variable state: batch_size=4814
+2024-01-15 09:49:05,ERROR,DataLoader,Schema validation failed for table: orders
+2024-01-15 09:49:14,WARN,Scheduler,"Record count mismatch: expected 866, got 4610"
+2024-01-15 09:49:22,ERROR,Validator,Duplicate primary key detected: 4388
+2024-01-15 09:49:31,DEBUG,Validator,Query plan: sequential scan on table orders
+2024-01-15 09:49:40,WARN,DataLoader,"Retrying connection, attempt 2257"
+2024-01-15 09:49:48,INFO,Scheduler,Batch 3291 processed successfully
+2024-01-15 09:49:57,INFO,Validator,Batch 1947 processed successfully
+2024-01-15 09:50:06,ERROR,Validator,Connection timeout after 166 seconds
+2024-01-15 09:50:15,ERROR,Validator,Connection timeout after 2297 seconds
+2024-01-15 09:50:23,DEBUG,DataLoader,Cache hit ratio: 1101%
+2024-01-15 09:50:32,DEBUG,Exporter,Memory usage: 2208MB
+2024-01-15 09:50:41,WARN,DataLoader,"Retrying connection, attempt 3619"
+2024-01-15 09:50:49,DEBUG,Exporter,Query plan: sequential scan on table orders
+2024-01-15 09:50:58,DEBUG,Scheduler,Cache hit ratio: 538%
+2024-01-15 09:51:07,ERROR,Exporter,Null detected in field: user_id
+2024-01-15 09:51:16,INFO,Transformer,Starting data load
+2024-01-15 09:51:24,INFO,DataLoader,Job completed in 1632 seconds
+2024-01-15 09:51:33,INFO,Exporter,Checkpoint saved
+2024-01-15 09:51:42,ERROR,Transformer,Connection timeout after 4005 seconds
+2024-01-15 09:51:50,INFO,Exporter,Checkpoint saved
+2024-01-15 09:51:59,INFO,Validator,Batch 741 processed successfully
+2024-01-15 09:52:08,INFO,DataLoader,Starting data load
+2024-01-15 09:52:16,DEBUG,Transformer,Cache hit ratio: 2205%
+2024-01-15 09:52:25,WARN,DataLoader,Slow query detected: 1084ms
+2024-01-15 09:52:34,WARN,DataLoader,"Retrying connection, attempt 2068"
+2024-01-15 09:52:43,ERROR,Validator,Failed to write output file: permission denied
+2024-01-15 09:52:51,DEBUG,Validator,Query plan: sequential scan on table orders
+2024-01-15 09:53:00,WARN,Scheduler,"Partial batch processed, 3254 records skipped"
+2024-01-15 09:53:09,INFO,Scheduler,Batch 3066 processed successfully
+2024-01-15 09:53:17,ERROR,Scheduler,Connection timeout after 2446 seconds
+2024-01-15 09:53:26,WARN,Validator,Deprecated config key used: legacy_mode
+2024-01-15 09:53:35,INFO,Validator,Starting data load
+2024-01-15 09:53:43,ERROR,DataLoader,Duplicate primary key detected: 4916
+2024-01-15 09:53:52,ERROR,Transformer,Failed to write output file: permission denied
+2024-01-15 09:54:01,DEBUG,Validator,Query plan: sequential scan on table orders
+2024-01-15 09:54:10,ERROR,Scheduler,Failed to write output file: permission denied
+2024-01-15 09:54:18,INFO,Transformer,Batch 4380 processed successfully
+2024-01-15 09:54:27,DEBUG,Validator,Variable state: batch_size=2460
+2024-01-15 09:54:36,DEBUG,Scheduler,Cache hit ratio: 2407%
+2024-01-15 09:54:44,WARN,Validator,"Partial batch processed, 1500 records skipped"
+2024-01-15 09:54:53,ERROR,Transformer,Connection timeout after 1830 seconds
+2024-01-15 09:55:02,INFO,Validator,Job completed in 2135 seconds
+2024-01-15 09:55:11,INFO,DataLoader,Connection established to source system
+2024-01-15 09:55:19,WARN,Scheduler,"Record count mismatch: expected 3869, got 1594"
+2024-01-15 09:55:28,WARN,Exporter,"Partial batch processed, 2445 records skipped"
+2024-01-15 09:55:37,INFO,Transformer,Starting data load
+2024-01-15 09:55:45,INFO,Scheduler,Connection established to source system
+2024-01-15 09:55:54,DEBUG,Transformer,Entering function process_batch()
+2024-01-15 09:56:03,ERROR,Transformer,Connection timeout after 476 seconds
+2024-01-15 09:56:11,WARN,Transformer,"Retrying connection, attempt 4721"
+2024-01-15 09:56:20,WARN,DataLoader,"Retrying connection, attempt 3553"
+2024-01-15 09:56:29,INFO,Exporter,Connection established to source system
+2024-01-15 09:56:38,WARN,Validator,"Record count mismatch: expected 2640, got 4351"
+2024-01-15 09:56:46,INFO,DataLoader,Batch 2039 processed successfully
+2024-01-15 09:56:55,ERROR,Validator,Connection timeout after 1057 seconds
+2024-01-15 09:57:04,INFO,Scheduler,Job completed in 1369 seconds
+2024-01-15 09:57:12,DEBUG,Validator,Memory usage: 3735MB
+2024-01-15 09:57:21,WARN,Validator,Slow query detected: 1097ms
+2024-01-15 09:57:30,DEBUG,Exporter,Memory usage: 1544MB
+2024-01-15 09:57:38,DEBUG,Exporter,Entering function process_batch()
+2024-01-15 09:57:47,ERROR,Transformer,Null detected in field: user_id
+2024-01-15 09:57:56,WARN,DataLoader,Deprecated config key used: legacy_mode
+2024-01-15 09:58:05,DEBUG,Validator,Variable state: batch_size=399
+2024-01-15 09:58:13,DEBUG,DataLoader,Entering function process_batch()
+2024-01-15 09:58:22,INFO,Exporter,File loaded successfully
+2024-01-15 09:58:31,WARN,Transformer,"Retrying connection, attempt 77"
+2024-01-15 09:58:39,INFO,DataLoader,Batch 4263 processed successfully
+2024-01-15 09:58:48,ERROR,Transformer,Schema validation failed for table: orders
+2024-01-15 09:58:57,ERROR,DataLoader,Connection timeout after 934 seconds
+2024-01-15 09:59:06,WARN,Scheduler,"Retrying connection, attempt 2155"
+2024-01-15 09:59:14,DEBUG,Validator,Query plan: sequential scan on table orders
+2024-01-15 09:59:23,INFO,Exporter,Starting data load
+2024-01-15 09:59:32,INFO,DataLoader,Batch 730 processed successfully
+2024-01-15 09:59:40,DEBUG,Exporter,Cache hit ratio: 738%
+2024-01-15 09:59:49,INFO,DataLoader,Job completed in 1894 seconds
+2024-01-15 09:59:58,DEBUG,Validator,Memory usage: 3804MB
+2024-01-15 10:00:06,INFO,Transformer,File loaded successfully
+2024-01-15 10:00:15,ERROR,Validator,Schema validation failed for table: orders
+2024-01-15 10:00:24,DEBUG,DataLoader,Entering function process_batch()
+2024-01-15 10:00:33,INFO,Exporter,Checkpoint saved
+2024-01-15 10:00:41,INFO,Validator,Starting data load
+2024-01-15 10:00:50,INFO,Exporter,Job completed in 3160 seconds
+2024-01-15 10:00:59,ERROR,Transformer,Null value found in column: amount
+2024-01-15 10:01:07,DEBUG,Transformer,Entering function process_batch()
+2024-01-15 10:01:16,WARN,Scheduler,Slow query detected: 1485ms
+2024-01-15 10:01:25,ERROR,Scheduler,Null value found in column: amount
+2024-01-15 10:01:34,DEBUG,DataLoader,Query plan: sequential scan on table orders
+2024-01-15 10:01:42,INFO,Validator,File loaded successfully
+2024-01-15 10:01:51,ERROR,Transformer,Failed to write output file: permission denied
+2024-01-15 10:02:00,WARN,Scheduler,"Record count mismatch: expected 3546, got 2037"
+2024-01-15 10:02:08,WARN,Exporter,"Retrying connection, attempt 4574"
+2024-01-15 10:02:17,INFO,Transformer,Checkpoint saved
+2024-01-15 10:02:26,DEBUG,DataLoader,Query plan: sequential scan on table orders
+2024-01-15 10:02:34,INFO,Validator,File loaded successfully
+2024-01-15 10:02:43,WARN,Exporter,Slow query detected: 1926ms
+2024-01-15 10:02:52,WARN,Scheduler,Slow query detected: 722ms
+2024-01-15 10:03:01,INFO,DataLoader,Connection established to source system
+2024-01-15 10:03:09,INFO,DataLoader,Checkpoint saved
+2024-01-15 10:03:18,DEBUG,Scheduler,Variable state: batch_size=2496
+2024-01-15 10:03:27,WARN,Exporter,Deprecated config key used: legacy_mode
+2024-01-15 10:03:35,ERROR,Exporter,Connection timeout after 4589 seconds
+2024-01-15 10:03:44,WARN,Validator,Slow query detected: 935ms
+2024-01-15 10:03:53,ERROR,Transformer,Null value found in column: amount
+2024-01-15 10:04:01,DEBUG,Validator,Variable state: batch_size=4277
+2024-01-15 10:04:10,ERROR,DataLoader,Null detected in field: user_id
+2024-01-15 10:04:19,DEBUG,Exporter,Entering function process_batch()
+2024-01-15 10:04:28,INFO,Exporter,Starting data load
+2024-01-15 10:04:36,ERROR,DataLoader,Duplicate primary key detected: 3396
+2024-01-15 10:04:45,DEBUG,Scheduler,Entering function process_batch()
+2024-01-15 10:04:54,ERROR,Scheduler,Null detected in field: user_id
+2024-01-15 10:05:02,WARN,DataLoader,"Partial batch processed, 3546 records skipped"
+2024-01-15 10:05:11,WARN,Scheduler,"Retrying connection, attempt 4740"
+2024-01-15 10:05:20,ERROR,Transformer,Null value found in column: amount
+2024-01-15 10:05:29,WARN,Validator,"Partial batch processed, 3152 records skipped"
+2024-01-15 10:05:37,DEBUG,Transformer,Memory usage: 3260MB
+2024-01-15 10:05:46,DEBUG,Exporter,Cache hit ratio: 1132%
+2024-01-15 10:05:55,WARN,Scheduler,Deprecated config key used: legacy_mode
+2024-01-15 10:06:03,ERROR,Scheduler,Failed to write output file: permission denied
+2024-01-15 10:06:12,INFO,Validator,Batch 2829 processed successfully
+2024-01-15 10:06:21,DEBUG,Transformer,Variable state: batch_size=4445
+2024-01-15 10:06:29,ERROR,Validator,Unhandled exception: KeyError('customer_id')
+2024-01-15 10:06:38,WARN,Exporter,"Partial batch processed, 2343 records skipped"
+2024-01-15 10:06:47,ERROR,Scheduler,Null value found in column: amount
+2024-01-15 10:06:56,INFO,DataLoader,Starting data load
+2024-01-15 10:07:04,DEBUG,Validator,Cache hit ratio: 509%
+2024-01-15 10:07:13,INFO,Scheduler,File loaded successfully
+2024-01-15 10:07:22,INFO,Scheduler,Starting data load
+2024-01-15 10:07:30,INFO,Validator,Batch 385 processed successfully
+2024-01-15 10:07:39,INFO,Validator,Checkpoint saved
+2024-01-15 10:07:48,ERROR,Transformer,Unhandled exception: KeyError('customer_id')
+2024-01-15 10:07:56,DEBUG,Validator,Variable state: batch_size=4478
+2024-01-15 10:08:05,INFO,Transformer,Job completed in 3677 seconds
+2024-01-15 10:08:14,DEBUG,DataLoader,Cache hit ratio: 1424%
+2024-01-15 10:08:23,INFO,DataLoader,Connection established to source system
+2024-01-15 10:08:31,INFO,Transformer,Checkpoint saved
+2024-01-15 10:08:40,INFO,Transformer,File loaded successfully
+2024-01-15 10:08:49,WARN,Scheduler,Deprecated config key used: legacy_mode
+2024-01-15 10:08:57,WARN,DataLoader,Deprecated config key used: legacy_mode
+2024-01-15 10:09:06,DEBUG,Scheduler,Entering function process_batch()
+2024-01-15 10:09:15,INFO,Scheduler,Connection established to source system
+2024-01-15 10:09:24,INFO,Transformer,Batch 2719 processed successfully
+2024-01-15 10:09:32,INFO,Transformer,Checkpoint saved
+2024-01-15 10:09:41,DEBUG,DataLoader,Entering function process_batch()
+2024-01-15 10:09:50,INFO,Scheduler,Checkpoint saved
+2024-01-15 10:09:58,ERROR,Validator,Schema validation failed for table: orders
+2024-01-15 10:10:07,INFO,Validator,File loaded successfully
+2024-01-15 10:10:16,WARN,Scheduler,Slow query detected: 3988ms
+2024-01-15 10:10:24,INFO,Transformer,Job completed in 4210 seconds
+2024-01-15 10:10:33,DEBUG,Transformer,Variable state: batch_size=4369
+2024-01-15 10:10:42,ERROR,Transformer,Failed to write output file: permission denied
+2024-01-15 10:10:51,DEBUG,Transformer,Variable state: batch_size=3566
+2024-01-15 10:10:59,ERROR,Transformer,Null value found in column: amount
+2024-01-15 10:11:08,INFO,DataLoader,File loaded successfully
+2024-01-15 10:11:17,WARN,Scheduler,"Retrying connection, attempt 2119"
+2024-01-15 10:11:25,INFO,Exporter,Connection established to source system
+2024-01-15 10:11:34,INFO,DataLoader,Checkpoint saved
+2024-01-15 10:11:43,ERROR,Scheduler,Null value found in column: amount
+2024-01-15 10:11:51,DEBUG,DataLoader,Memory usage: 2469MB
+2024-01-15 10:12:00,INFO,Exporter,Connection established to source system
+2024-01-15 10:12:09,WARN,Scheduler,"Retrying connection, attempt 1118"
+2024-01-15 10:12:18,ERROR,Scheduler,Connection timeout after 1181 seconds
+2024-01-15 10:12:26,ERROR,Validator,Null value found in column: amount
+2024-01-15 10:12:35,INFO,DataLoader,File loaded successfully
+2024-01-15 10:12:44,INFO,Scheduler,File loaded successfully
+2024-01-15 10:12:52,ERROR,Validator,Null detected in field: user_id
+2024-01-15 10:13:01,INFO,Transformer,Starting data load
+2024-01-15 10:13:10,INFO,Scheduler,File loaded successfully
+2024-01-15 10:13:19,ERROR,DataLoader,Connection timeout after 552 seconds
+2024-01-15 10:13:27,INFO,Scheduler,Connection established to source system
+2024-01-15 10:13:36,INFO,Transformer,File loaded successfully
+2024-01-15 10:13:45,DEBUG,Validator,Query plan: sequential scan on table orders
+2024-01-15 10:13:53,WARN,Validator,"Partial batch processed, 1249 records skipped"
+2024-01-15 10:14:02,WARN,Validator,Slow query detected: 1382ms
+2024-01-15 10:14:11,INFO,Transformer,Batch 3573 processed successfully
+2024-01-15 10:14:19,DEBUG,Transformer,Memory usage: 3932MB
+2024-01-15 10:14:28,INFO,Validator,Connection established to source system
+2024-01-15 10:14:37,INFO,Scheduler,File loaded successfully
+2024-01-15 10:14:46,DEBUG,Transformer,Memory usage: 627MB
+2024-01-15 10:14:54,DEBUG,Scheduler,Entering function process_batch()
+2024-01-15 10:15:03,INFO,Scheduler,Starting data load
+2024-01-15 10:15:12,INFO,Scheduler,Connection established to source system
+2024-01-15 10:15:20,INFO,Scheduler,Batch 2384 processed successfully
+2024-01-15 10:15:29,WARN,Scheduler,"Record count mismatch: expected 3251, got 2981"
+2024-01-15 10:15:38,WARN,Transformer,"Partial batch processed, 1359 records skipped"
+2024-01-15 10:15:47,INFO,Transformer,Starting data load
+2024-01-15 10:15:55,ERROR,Transformer,Failed to write output file: permission denied
+2024-01-15 10:16:04,INFO,Exporter,Starting data load
+2024-01-15 10:16:13,INFO,DataLoader,Batch 1694 processed successfully
+2024-01-15 10:16:21,DEBUG,Validator,Query plan: sequential scan on table orders
+2024-01-15 10:16:30,DEBUG,DataLoader,Memory usage: 846MB
+2024-01-15 10:16:39,ERROR,Validator,Duplicate primary key detected: 2158
+2024-01-15 10:16:47,WARN,Transformer,Slow query detected: 3101ms
+2024-01-15 10:16:56,WARN,DataLoader,"Partial batch processed, 2061 records skipped"
+2024-01-15 10:17:05,DEBUG,Transformer,Variable state: batch_size=3325
+2024-01-15 10:17:14,ERROR,Validator,Schema validation failed for table: orders
+2024-01-15 10:17:22,INFO,Transformer,Connection established to source system
+2024-01-15 10:17:31,INFO,Validator,Starting data load
+2024-01-15 10:17:40,INFO,Scheduler,Batch 970 processed successfully
+2024-01-15 10:17:48,INFO,Validator,Batch 929 processed successfully
+2024-01-15 10:17:57,ERROR,Exporter,Null detected in field: user_id
+2024-01-15 10:18:06,ERROR,Exporter,Null value found in column: amount
+2024-01-15 10:18:14,INFO,Scheduler,Starting data load
+2024-01-15 10:18:23,INFO,Scheduler,Starting data load
+2024-01-15 10:18:32,INFO,Transformer,Checkpoint saved
+2024-01-15 10:18:41,DEBUG,DataLoader,Memory usage: 703MB
+2024-01-15 10:18:49,INFO,Exporter,Connection established to source system
+2024-01-15 10:18:58,DEBUG,Scheduler,Cache hit ratio: 4774%
+2024-01-15 10:19:07,ERROR,Scheduler,Connection timeout after 1374 seconds
+2024-01-15 10:19:15,DEBUG,Scheduler,Variable state: batch_size=564
+2024-01-15 10:19:24,INFO,Transformer,File loaded successfully
+2024-01-15 10:19:33,WARN,Scheduler,Slow query detected: 1226ms
+2024-01-15 10:19:42,INFO,Exporter,Checkpoint saved
+2024-01-15 10:19:50,DEBUG,Scheduler,Variable state: batch_size=963
+2024-01-15 10:19:59,WARN,Transformer,"Partial batch processed, 4418 records skipped"
+2024-01-15 10:20:08,DEBUG,Exporter,Variable state: batch_size=3447
+2024-01-15 10:20:16,DEBUG,Scheduler,Query plan: sequential scan on table orders
+2024-01-15 10:20:25,ERROR,Exporter,Connection timeout after 4826 seconds
+2024-01-15 10:20:34,INFO,Transformer,Job completed in 3909 seconds
+2024-01-15 10:20:42,DEBUG,DataLoader,Memory usage: 4902MB
+2024-01-15 10:20:51,INFO,Transformer,File loaded successfully
+2024-01-15 10:21:00,WARN,Scheduler,"Record count mismatch: expected 3073, got 1683"
+2024-01-15 10:21:09,ERROR,Validator,Schema validation failed for table: orders
+2024-01-15 10:21:17,INFO,Scheduler,Job completed in 2141 seconds
+2024-01-15 10:21:26,INFO,Validator,Checkpoint saved
+2024-01-15 10:21:35,ERROR,Exporter,Unhandled exception: KeyError('customer_id')
+2024-01-15 10:21:43,INFO,Scheduler,Checkpoint saved
+2024-01-15 10:21:52,DEBUG,Scheduler,Memory usage: 3262MB
+2024-01-15 10:22:01,DEBUG,DataLoader,Cache hit ratio: 3659%
+2024-01-15 10:22:09,INFO,Scheduler,Connection established to source system
+2024-01-15 10:22:18,WARN,DataLoader,"Retrying connection, attempt 3188"
+2024-01-15 10:22:27,ERROR,Transformer,Schema validation failed for table: orders
+2024-01-15 10:22:36,INFO,Validator,Starting data load
+2024-01-15 10:22:44,WARN,Exporter,Slow query detected: 4269ms
+2024-01-15 10:22:53,ERROR,Scheduler,Null value found in column: amount
+2024-01-15 10:23:02,INFO,Transformer,Batch 4245 processed successfully
+2024-01-15 10:23:10,INFO,Scheduler,Checkpoint saved
+2024-01-15 10:23:19,WARN,DataLoader,Deprecated config key used: legacy_mode
+2024-01-15 10:23:28,DEBUG,DataLoader,Memory usage: 3273MB
+2024-01-15 10:23:37,ERROR,Exporter,Unhandled exception: KeyError('customer_id')
+2024-01-15 10:23:45,INFO,DataLoader,File loaded successfully
+2024-01-15 10:23:54,ERROR,Scheduler,Unhandled exception: KeyError('customer_id')
+2024-01-15 10:24:03,DEBUG,Validator,Cache hit ratio: 4968%
+2024-01-15 10:24:11,WARN,Exporter,"Partial batch processed, 39 records skipped"
+2024-01-15 10:24:20,INFO,Scheduler,File loaded successfully
+2024-01-15 10:24:29,WARN,Validator,"Record count mismatch: expected 4205, got 2112"
+2024-01-15 10:24:37,DEBUG,Scheduler,Memory usage: 3628MB
+2024-01-15 10:24:46,WARN,Transformer,Deprecated config key used: legacy_mode
+2024-01-15 10:24:55,DEBUG,DataLoader,Query plan: sequential scan on table orders
+2024-01-15 10:25:04,INFO,Transformer,Batch 1884 processed successfully
+2024-01-15 10:25:12,INFO,Validator,Checkpoint saved
+2024-01-15 10:25:21,ERROR,Validator,Null detected in field: user_id
+2024-01-15 10:25:30,INFO,Validator,File loaded successfully
+2024-01-15 10:25:38,WARN,Validator,"Retrying connection, attempt 4700"
+2024-01-15 10:25:47,INFO,Transformer,Connection established to source system
+2024-01-15 10:25:56,ERROR,Validator,Null detected in field: user_id
+2024-01-15 10:26:04,DEBUG,Scheduler,Memory usage: 1278MB
+2024-01-15 10:26:13,INFO,DataLoader,Batch 4036 processed successfully
+2024-01-15 10:26:22,ERROR,Scheduler,Null value found in column: amount
+2024-01-15 10:26:31,ERROR,Exporter,Unhandled exception: KeyError('customer_id')
+2024-01-15 10:26:39,INFO,Scheduler,Job completed in 3260 seconds
+2024-01-15 10:26:48,ERROR,Transformer,Null value found in column: amount
+2024-01-15 10:26:57,WARN,Scheduler,"Record count mismatch: expected 4117, got 2845"
+2024-01-15 10:27:05,INFO,Transformer,Connection established to source system
+2024-01-15 10:27:14,WARN,DataLoader,"Record count mismatch: expected 1727, got 3109"
+2024-01-15 10:27:23,WARN,Validator,Deprecated config key used: legacy_mode
+2024-01-15 10:27:32,WARN,Transformer,Deprecated config key used: legacy_mode
+2024-01-15 10:27:40,INFO,Exporter,Connection established to source system
+2024-01-15 10:27:49,ERROR,Validator,Connection timeout after 3282 seconds
+2024-01-15 10:27:58,WARN,Scheduler,"Retrying connection, attempt 4718"
+2024-01-15 10:28:06,ERROR,Validator,Duplicate primary key detected: 1932
+2024-01-15 10:28:15,INFO,Exporter,Starting data load
+2024-01-15 10:28:24,WARN,DataLoader,"Retrying connection, attempt 3454"
+2024-01-15 10:28:32,INFO,Scheduler,Checkpoint saved
+2024-01-15 10:28:41,INFO,Scheduler,Checkpoint saved
+2024-01-15 10:28:50,INFO,Transformer,File loaded successfully
+2024-01-15 10:28:59,WARN,DataLoader,Slow query detected: 2742ms
+2024-01-15 10:29:07,INFO,Scheduler,Checkpoint saved
+2024-01-15 10:29:16,INFO,DataLoader,Job completed in 4961 seconds
+2024-01-15 10:29:25,WARN,Scheduler,"Retrying connection, attempt 2332"
+2024-01-15 10:29:33,INFO,Scheduler,Connection established to source system
+2024-01-15 10:29:42,INFO,Validator,Connection established to source system
+2024-01-15 10:29:51,ERROR,Validator,Schema validation failed for table: orders
+2024-01-15 10:30:00,DEBUG,DataLoader,Entering function process_batch()
+2024-01-15 10:30:08,INFO,Validator,Batch 2387 processed successfully
+2024-01-15 10:30:17,WARN,Exporter,Deprecated config key used: legacy_mode
+2024-01-15 10:30:26,ERROR,Scheduler,Schema validation failed for table: orders
+2024-01-15 10:30:34,INFO,DataLoader,Starting data load
+2024-01-15 10:30:43,DEBUG,DataLoader,Cache hit ratio: 1368%
+2024-01-15 10:30:52,INFO,DataLoader,Connection established to source system
+2024-01-15 10:31:00,INFO,Exporter,Checkpoint saved
+2024-01-15 10:31:09,INFO,Transformer,File loaded successfully
+2024-01-15 10:31:18,INFO,Validator,Connection established to source system
+2024-01-15 10:31:27,WARN,Transformer,"Record count mismatch: expected 288, got 2924"
+2024-01-15 10:31:35,DEBUG,Validator,Query plan: sequential scan on table orders
+2024-01-15 10:31:44,DEBUG,Scheduler,Query plan: sequential scan on table orders
+2024-01-15 10:31:53,INFO,Scheduler,Connection established to source system
+2024-01-15 10:32:01,WARN,Scheduler,Deprecated config key used: legacy_mode
+2024-01-15 10:32:10,WARN,DataLoader,Slow query detected: 2523ms
+2024-01-15 10:32:19,INFO,Transformer,Job completed in 87 seconds
+2024-01-15 10:32:27,WARN,Transformer,Deprecated config key used: legacy_mode
+2024-01-15 10:32:36,WARN,Exporter,Slow query detected: 2455ms
+2024-01-15 10:32:45,ERROR,Validator,Unhandled exception: KeyError('customer_id')
+2024-01-15 10:32:54,WARN,Transformer,Slow query detected: 4593ms
+2024-01-15 10:33:02,INFO,Transformer,Batch 3193 processed successfully
+2024-01-15 10:33:11,INFO,DataLoader,Connection established to source system
+2024-01-15 10:33:20,ERROR,Scheduler,Duplicate primary key detected: 2228
+2024-01-15 10:33:28,ERROR,Scheduler,Duplicate primary key detected: 2203
+2024-01-15 10:33:37,INFO,DataLoader,Starting data load
+2024-01-15 10:33:46,INFO,Exporter,Checkpoint saved
+2024-01-15 10:33:55,ERROR,Exporter,Null detected in field: user_id
+2024-01-15 10:34:03,INFO,Scheduler,File loaded successfully
+2024-01-15 10:34:12,INFO,Transformer,Batch 3592 processed successfully
+2024-01-15 10:34:21,INFO,Transformer,File loaded successfully
+2024-01-15 10:34:29,INFO,Validator,Connection established to source system
+2024-01-15 10:34:38,ERROR,DataLoader,Connection timeout after 658 seconds
+2024-01-15 10:34:47,INFO,Exporter,File loaded successfully
+2024-01-15 10:34:55,INFO,Validator,Connection established to source system
+2024-01-15 10:35:04,DEBUG,Transformer,Query plan: sequential scan on table orders
+2024-01-15 10:35:13,ERROR,DataLoader,Null detected in field: user_id
+2024-01-15 10:35:22,WARN,Transformer,Slow query detected: 3188ms
+2024-01-15 10:35:30,DEBUG,Transformer,Entering function process_batch()
+2024-01-15 10:35:39,INFO,Exporter,Batch 2448 processed successfully
+2024-01-15 10:35:48,INFO,DataLoader,Batch 1785 processed successfully
+2024-01-15 10:35:56,INFO,Exporter,Job completed in 124 seconds
+2024-01-15 10:36:05,ERROR,Scheduler,Null value found in column: amount
+2024-01-15 10:36:14,INFO,DataLoader,Checkpoint saved
+2024-01-15 10:36:22,INFO,DataLoader,Starting data load
+2024-01-15 10:36:31,INFO,Scheduler,Job completed in 492 seconds
+2024-01-15 10:36:40,INFO,Transformer,Batch 4394 processed successfully
+2024-01-15 10:36:49,INFO,Transformer,Job completed in 4575 seconds
+2024-01-15 10:36:57,ERROR,Exporter,Failed to write output file: permission denied
+2024-01-15 10:37:06,ERROR,Validator,Failed to write output file: permission denied
+2024-01-15 10:37:15,DEBUG,Exporter,Query plan: sequential scan on table orders
+2024-01-15 10:37:23,WARN,Exporter,"Retrying connection, attempt 4643"
+2024-01-15 10:37:32,WARN,Validator,Slow query detected: 2256ms
+2024-01-15 10:37:41,DEBUG,Scheduler,Cache hit ratio: 565%
+2024-01-15 10:37:50,INFO,Validator,Job completed in 4437 seconds
+2024-01-15 10:37:58,WARN,Scheduler,Slow query detected: 1520ms
+2024-01-15 10:38:07,WARN,Validator,"Partial batch processed, 1957 records skipped"
+2024-01-15 10:38:16,ERROR,Scheduler,Duplicate primary key detected: 3175
+2024-01-15 10:38:24,WARN,Exporter,"Partial batch processed, 1263 records skipped"
+2024-01-15 10:38:33,INFO,Validator,File loaded successfully
+2024-01-15 10:38:42,ERROR,DataLoader,Duplicate primary key detected: 1064
+2024-01-15 10:38:50,DEBUG,Transformer,Entering function process_batch()
+2024-01-15 10:38:59,INFO,Scheduler,Batch 3184 processed successfully
+2024-01-15 10:39:08,WARN,Scheduler,Deprecated config key used: legacy_mode
+2024-01-15 10:39:17,INFO,DataLoader,File loaded successfully
+2024-01-15 10:39:25,DEBUG,DataLoader,Query plan: sequential scan on table orders
+2024-01-15 10:39:34,WARN,Exporter,Deprecated config key used: legacy_mode
+2024-01-15 10:39:43,WARN,DataLoader,Deprecated config key used: legacy_mode
+2024-01-15 10:39:51,DEBUG,DataLoader,Entering function process_batch()
+2024-01-15 10:40:00,INFO,Transformer,Checkpoint saved
+2024-01-15 10:40:09,ERROR,Transformer,Unhandled exception: KeyError('customer_id')
+2024-01-15 10:40:17,ERROR,Scheduler,Connection timeout after 3758 seconds
+2024-01-15 10:40:26,DEBUG,Transformer,Cache hit ratio: 4506%
+2024-01-15 10:40:35,WARN,Transformer,"Partial batch processed, 4915 records skipped"
+2024-01-15 10:40:44,DEBUG,Validator,Variable state: batch_size=2660
+2024-01-15 10:40:52,INFO,Exporter,Batch 2650 processed successfully
+2024-01-15 10:41:01,INFO,Scheduler,Starting data load
+2024-01-15 10:41:10,DEBUG,Validator,Memory usage: 3707MB
+2024-01-15 10:41:18,DEBUG,DataLoader,Entering function process_batch()
+2024-01-15 10:41:27,INFO,Transformer,Job completed in 54 seconds
+2024-01-15 10:41:36,DEBUG,Transformer,Memory usage: 178MB
+2024-01-15 10:41:45,DEBUG,Scheduler,Variable state: batch_size=4675
+2024-01-15 10:41:53,INFO,DataLoader,Connection established to source system
+2024-01-15 10:42:02,INFO,Validator,Checkpoint saved
+2024-01-15 10:42:11,INFO,Validator,File loaded successfully
+2024-01-15 10:42:19,WARN,Transformer,"Record count mismatch: expected 2660, got 3953"
+2024-01-15 10:42:28,INFO,Scheduler,File loaded successfully
+2024-01-15 10:42:37,INFO,Scheduler,Connection established to source system
+2024-01-15 10:42:45,DEBUG,Validator,Memory usage: 3558MB
+2024-01-15 10:42:54,DEBUG,DataLoader,Cache hit ratio: 4935%
+2024-01-15 10:43:03,ERROR,Exporter,Null value found in column: amount
+2024-01-15 10:43:12,INFO,Scheduler,Checkpoint saved
+2024-01-15 10:43:20,WARN,Transformer,"Retrying connection, attempt 414"
+2024-01-15 10:43:29,DEBUG,Scheduler,Variable state: batch_size=4135
+2024-01-15 10:43:38,INFO,Validator,Connection established to source system
+2024-01-15 10:43:46,INFO,Exporter,Checkpoint saved
+2024-01-15 10:43:55,INFO,DataLoader,Connection established to source system
+2024-01-15 10:44:04,ERROR,Transformer,Duplicate primary key detected: 1105
+2024-01-15 10:44:12,WARN,Exporter,Slow query detected: 4681ms
+2024-01-15 10:44:21,WARN,Scheduler,"Retrying connection, attempt 1986"
+2024-01-15 10:44:30,INFO,Exporter,Job completed in 4719 seconds
+2024-01-15 10:44:39,INFO,Exporter,Connection established to source system
+2024-01-15 10:44:47,INFO,Validator,Checkpoint saved
+2024-01-15 10:44:56,INFO,Validator,Checkpoint saved
+2024-01-15 10:45:05,INFO,Transformer,Starting data load
+2024-01-15 10:45:13,ERROR,DataLoader,Null value found in column: amount
+2024-01-15 10:45:22,DEBUG,Transformer,Memory usage: 113MB
+2024-01-15 10:45:31,ERROR,DataLoader,Connection timeout after 3687 seconds
+2024-01-15 10:45:40,INFO,Transformer,Batch 4408 processed successfully
+2024-01-15 10:45:48,INFO,Scheduler,Job completed in 4496 seconds
+2024-01-15 10:45:57,ERROR,Transformer,Failed to write output file: permission denied
+2024-01-15 10:46:06,WARN,Scheduler,"Record count mismatch: expected 2093, got 1396"
+2024-01-15 10:46:14,INFO,Transformer,Batch 2223 processed successfully
+2024-01-15 10:46:23,WARN,DataLoader,"Record count mismatch: expected 3184, got 2223"
+2024-01-15 10:46:32,ERROR,Validator,Duplicate primary key detected: 884
+2024-01-15 10:46:40,INFO,Exporter,Starting data load
+2024-01-15 10:46:49,DEBUG,DataLoader,Memory usage: 3971MB
+2024-01-15 10:46:58,WARN,Transformer,"Retrying connection, attempt 4102"
+2024-01-15 10:47:07,WARN,DataLoader,"Record count mismatch: expected 2027, got 4337"
+2024-01-15 10:47:15,INFO,Exporter,Connection established to source system
+2024-01-15 10:47:24,INFO,Validator,Job completed in 2477 seconds
+2024-01-15 10:47:33,DEBUG,Scheduler,Memory usage: 508MB
+2024-01-15 10:47:41,DEBUG,DataLoader,Variable state: batch_size=2296
+2024-01-15 10:47:50,INFO,Exporter,Batch 1125 processed successfully
+2024-01-15 10:47:59,ERROR,Scheduler,Failed to write output file: permission denied
+2024-01-15 10:48:08,INFO,Transformer,Connection established to source system
+2024-01-15 10:48:16,INFO,Scheduler,Starting data load
+2024-01-15 10:48:25,WARN,Transformer,"Retrying connection, attempt 2532"
+2024-01-15 10:48:34,DEBUG,Exporter,Cache hit ratio: 4628%
+2024-01-15 10:48:42,INFO,Scheduler,Checkpoint saved
+2024-01-15 10:48:51,INFO,Transformer,Batch 242 processed successfully
+2024-01-15 10:49:00,DEBUG,Exporter,Query plan: sequential scan on table orders
+2024-01-15 10:49:08,ERROR,Validator,Null detected in field: user_id
+2024-01-15 10:49:17,INFO,DataLoader,Checkpoint saved
+2024-01-15 10:49:26,WARN,Transformer,"Partial batch processed, 1903 records skipped"
+2024-01-15 10:49:35,ERROR,Validator,Null value found in column: amount
+2024-01-15 10:49:43,WARN,Scheduler,Slow query detected: 3064ms
+2024-01-15 10:49:52,DEBUG,Exporter,Query plan: sequential scan on table orders
+2024-01-15 10:50:01,INFO,DataLoader,Connection established to source system
+2024-01-15 10:50:09,DEBUG,Transformer,Cache hit ratio: 1676%
+2024-01-15 10:50:18,INFO,Exporter,Checkpoint saved
+2024-01-15 10:50:27,DEBUG,Transformer,Query plan: sequential scan on table orders
+2024-01-15 10:50:35,WARN,Exporter,Deprecated config key used: legacy_mode
+2024-01-15 10:50:44,WARN,Scheduler,"Record count mismatch: expected 4266, got 896"
+2024-01-15 10:50:53,WARN,DataLoader,"Retrying connection, attempt 4250"
+2024-01-15 10:51:02,INFO,DataLoader,Checkpoint saved
+2024-01-15 10:51:10,ERROR,DataLoader,Null detected in field: user_id
+2024-01-15 10:51:19,INFO,Validator,Job completed in 3780 seconds
+2024-01-15 10:51:28,INFO,Scheduler,File loaded successfully
+2024-01-15 10:51:36,WARN,Exporter,"Record count mismatch: expected 4102, got 928"
+2024-01-15 10:51:45,INFO,Scheduler,Batch 4477 processed successfully
+2024-01-15 10:51:54,INFO,Validator,Connection established to source system
+2024-01-15 10:52:03,WARN,Transformer,Slow query detected: 739ms
+2024-01-15 10:52:11,INFO,Transformer,Batch 1013 processed successfully
+2024-01-15 10:52:20,INFO,Exporter,Batch 2974 processed successfully
+2024-01-15 10:52:29,WARN,Exporter,"Partial batch processed, 1310 records skipped"
+2024-01-15 10:52:37,WARN,DataLoader,"Retrying connection, attempt 2746"
+2024-01-15 10:52:46,DEBUG,Transformer,Cache hit ratio: 1185%
+2024-01-15 10:52:55,ERROR,DataLoader,Schema validation failed for table: orders
+2024-01-15 10:53:03,ERROR,Exporter,Connection timeout after 1481 seconds
+2024-01-15 10:53:12,DEBUG,Transformer,Entering function process_batch()
+2024-01-15 10:53:21,WARN,Exporter,"Partial batch processed, 48 records skipped"
+2024-01-15 10:53:30,DEBUG,Transformer,Cache hit ratio: 4824%
+2024-01-15 10:53:38,WARN,Exporter,"Record count mismatch: expected 4926, got 4917"
+2024-01-15 10:53:47,INFO,Scheduler,Job completed in 4568 seconds
+2024-01-15 10:53:56,INFO,Transformer,File loaded successfully
+2024-01-15 10:54:04,INFO,DataLoader,Batch 4736 processed successfully
+2024-01-15 10:54:13,INFO,DataLoader,File loaded successfully
+2024-01-15 10:54:22,DEBUG,Transformer,Memory usage: 4874MB
+2024-01-15 10:54:30,ERROR,Transformer,Schema validation failed for table: orders
+2024-01-15 10:54:39,DEBUG,DataLoader,Memory usage: 2645MB
+2024-01-15 10:54:48,DEBUG,DataLoader,Query plan: sequential scan on table orders
+2024-01-15 10:54:57,INFO,Transformer,File loaded successfully
+2024-01-15 10:55:05,WARN,Scheduler,"Retrying connection, attempt 1713"
+2024-01-15 10:55:14,INFO,Scheduler,File loaded successfully
+2024-01-15 10:55:23,DEBUG,Validator,Query plan: sequential scan on table orders
+2024-01-15 10:55:31,INFO,Scheduler,Checkpoint saved
+2024-01-15 10:55:40,WARN,Exporter,"Partial batch processed, 4078 records skipped"
+2024-01-15 10:55:49,ERROR,Scheduler,Null detected in field: user_id
+2024-01-15 10:55:58,INFO,DataLoader,Connection established to source system
+2024-01-15 10:56:06,ERROR,Exporter,Schema validation failed for table: orders
+2024-01-15 10:56:15,INFO,Transformer,File loaded successfully
+2024-01-15 10:56:24,INFO,DataLoader,Job completed in 2460 seconds
+2024-01-15 10:56:32,WARN,DataLoader,"Record count mismatch: expected 2731, got 2797"
+2024-01-15 10:56:41,INFO,Scheduler,Checkpoint saved
+2024-01-15 10:56:50,INFO,Validator,Batch 3925 processed successfully
+2024-01-15 10:56:58,ERROR,Transformer,Schema validation failed for table: orders
+2024-01-15 10:57:07,DEBUG,Scheduler,Memory usage: 3789MB
+2024-01-15 10:57:16,DEBUG,DataLoader,Variable state: batch_size=2453
+2024-01-15 10:57:25,ERROR,Validator,Unhandled exception: KeyError('customer_id')
+2024-01-15 10:57:33,INFO,Validator,Job completed in 543 seconds
+2024-01-15 10:57:42,INFO,DataLoader,Job completed in 3074 seconds
+2024-01-15 10:57:51,DEBUG,Scheduler,Variable state: batch_size=3192
+2024-01-15 10:57:59,WARN,Validator,Deprecated config key used: legacy_mode
+2024-01-15 10:58:08,INFO,Exporter,Starting data load
+2024-01-15 10:58:17,DEBUG,Validator,Cache hit ratio: 4302%
+2024-01-15 10:58:25,INFO,Validator,File loaded successfully
+2024-01-15 10:58:34,INFO,DataLoader,Connection established to source system
+2024-01-15 10:58:43,INFO,Exporter,Batch 4290 processed successfully
+2024-01-15 10:58:52,ERROR,Transformer,Duplicate primary key detected: 805
+2024-01-15 10:59:00,ERROR,Transformer,Null detected in field: user_id
+2024-01-15 10:59:09,INFO,Scheduler,File loaded successfully
+2024-01-15 10:59:18,DEBUG,Scheduler,Entering function process_batch()
+2024-01-15 10:59:26,DEBUG,DataLoader,Variable state: batch_size=2560
+2024-01-15 10:59:35,WARN,Validator,"Retrying connection, attempt 2629"
+2024-01-15 10:59:44,INFO,Validator,Checkpoint saved
+2024-01-15 10:59:53,ERROR,Validator,Null detected in field: user_id
+2024-01-15 11:00:01,INFO,Scheduler,Checkpoint saved
+2024-01-15 11:00:10,INFO,Validator,Checkpoint saved
+2024-01-15 11:00:19,INFO,Validator,Checkpoint saved
+2024-01-15 11:00:27,INFO,Scheduler,Job completed in 4429 seconds
+2024-01-15 11:00:36,INFO,DataLoader,Connection established to source system
+2024-01-15 11:00:45,INFO,DataLoader,Connection established to source system
+2024-01-15 11:00:53,ERROR,Scheduler,Failed to write output file: permission denied
+2024-01-15 11:01:02,INFO,Transformer,Batch 4371 processed successfully
+2024-01-15 11:01:11,DEBUG,Exporter,Variable state: batch_size=1080
+2024-01-15 11:01:20,ERROR,Exporter,Null value found in column: amount
+2024-01-15 11:01:28,ERROR,Exporter,Schema validation failed for table: orders
+2024-01-15 11:01:37,INFO,Scheduler,Job completed in 2978 seconds
+2024-01-15 11:01:46,INFO,Validator,Job completed in 3714 seconds
+2024-01-15 11:01:54,INFO,Exporter,File loaded successfully
+2024-01-15 11:02:03,WARN,Transformer,Deprecated config key used: legacy_mode
+2024-01-15 11:02:12,WARN,Scheduler,"Record count mismatch: expected 3324, got 877"
+2024-01-15 11:02:21,INFO,DataLoader,Job completed in 4365 seconds
+2024-01-15 11:02:29,INFO,Exporter,Starting data load
+2024-01-15 11:02:38,INFO,Exporter,Connection established to source system
+2024-01-15 11:02:47,INFO,Scheduler,Connection established to source system
+2024-01-15 11:02:55,ERROR,Scheduler,Failed to write output file: permission denied
+2024-01-15 11:03:04,ERROR,DataLoader,Failed to write output file: permission denied
+2024-01-15 11:03:13,INFO,Scheduler,Connection established to source system
+2024-01-15 11:03:21,INFO,Exporter,Starting data load
+2024-01-15 11:03:30,INFO,DataLoader,Batch 4886 processed successfully
+2024-01-15 11:03:39,INFO,DataLoader,File loaded successfully
+2024-01-15 11:03:48,DEBUG,DataLoader,Cache hit ratio: 1223%
+2024-01-15 11:03:56,WARN,Exporter,"Partial batch processed, 4735 records skipped"
+2024-01-15 11:04:05,INFO,Validator,Job completed in 4672 seconds
+2024-01-15 11:04:14,DEBUG,Exporter,Memory usage: 732MB
+2024-01-15 11:04:22,INFO,Scheduler,Connection established to source system
+2024-01-15 11:04:31,INFO,Scheduler,File loaded successfully
+2024-01-15 11:04:40,DEBUG,Validator,Entering function process_batch()
+2024-01-15 11:04:48,INFO,Scheduler,Connection established to source system
+2024-01-15 11:04:57,INFO,Exporter,Checkpoint saved
+2024-01-15 11:05:06,WARN,Transformer,"Partial batch processed, 3151 records skipped"
+2024-01-15 11:05:15,DEBUG,Transformer,Memory usage: 1029MB
+2024-01-15 11:05:23,INFO,DataLoader,Starting data load
+2024-01-15 11:05:32,DEBUG,Transformer,Entering function process_batch()
+2024-01-15 11:05:41,DEBUG,Scheduler,Query plan: sequential scan on table orders
+2024-01-15 11:05:49,WARN,Scheduler,Slow query detected: 3152ms
+2024-01-15 11:05:58,INFO,Exporter,Checkpoint saved
+2024-01-15 11:06:07,WARN,Transformer,"Partial batch processed, 2206 records skipped"
+2024-01-15 11:06:16,DEBUG,Scheduler,Memory usage: 275MB
+2024-01-15 11:06:24,WARN,Validator,"Record count mismatch: expected 4754, got 3945"
+2024-01-15 11:06:33,DEBUG,DataLoader,Cache hit ratio: 4313%
+2024-01-15 11:06:42,WARN,DataLoader,"Partial batch processed, 4998 records skipped"
+2024-01-15 11:06:50,INFO,DataLoader,Batch 4418 processed successfully
+2024-01-15 11:06:59,INFO,DataLoader,Job completed in 4383 seconds
+2024-01-15 11:07:08,WARN,Scheduler,Slow query detected: 4702ms
+2024-01-15 11:07:16,INFO,Validator,Job completed in 1373 seconds
+2024-01-15 11:07:25,ERROR,Scheduler,Failed to write output file: permission denied
+2024-01-15 11:07:34,INFO,Exporter,Checkpoint saved
+2024-01-15 11:07:43,INFO,Validator,Batch 224 processed successfully
+2024-01-15 11:07:51,WARN,Transformer,"Partial batch processed, 630 records skipped"
+2024-01-15 11:08:00,INFO,Scheduler,Job completed in 2255 seconds
+2024-01-15 11:08:09,INFO,DataLoader,Checkpoint saved
+2024-01-15 11:08:17,ERROR,Exporter,Connection timeout after 1437 seconds
+2024-01-15 11:08:26,ERROR,Transformer,Schema validation failed for table: orders
+2024-01-15 11:08:35,DEBUG,Validator,Entering function process_batch()
+2024-01-15 11:08:43,DEBUG,Transformer,Query plan: sequential scan on table orders
+2024-01-15 11:08:52,INFO,Exporter,Batch 1371 processed successfully
+2024-01-15 11:09:01,WARN,Validator,"Record count mismatch: expected 2166, got 951"
+2024-01-15 11:09:10,INFO,Exporter,Connection established to source system
+2024-01-15 11:09:18,WARN,Scheduler,"Retrying connection, attempt 3112"
+2024-01-15 11:09:27,WARN,Transformer,"Partial batch processed, 3562 records skipped"
+2024-01-15 11:09:36,INFO,Exporter,Connection established to source system
+2024-01-15 11:09:44,ERROR,DataLoader,Null value found in column: amount
+2024-01-15 11:09:53,DEBUG,Exporter,Variable state: batch_size=2234
+2024-01-15 11:10:02,INFO,DataLoader,Job completed in 4786 seconds
+2024-01-15 11:10:11,WARN,Transformer,"Partial batch processed, 1597 records skipped"
+2024-01-15 11:10:19,INFO,Transformer,Job completed in 4487 seconds
+2024-01-15 11:10:28,ERROR,DataLoader,Null value found in column: amount
+2024-01-15 11:10:37,WARN,Exporter,Deprecated config key used: legacy_mode
+2024-01-15 11:10:45,INFO,DataLoader,File loaded successfully
+2024-01-15 11:10:54,DEBUG,Transformer,Variable state: batch_size=998
+2024-01-15 11:11:03,INFO,Scheduler,Starting data load
+2024-01-15 11:11:11,ERROR,Transformer,Null value found in column: amount
+2024-01-15 11:11:20,INFO,DataLoader,Batch 3715 processed successfully
+2024-01-15 11:11:29,ERROR,Validator,Connection timeout after 1327 seconds
+2024-01-15 11:11:38,INFO,DataLoader,Connection established to source system
+2024-01-15 11:11:46,DEBUG,Validator,Memory usage: 1458MB
+2024-01-15 11:11:55,INFO,Transformer,Checkpoint saved
+2024-01-15 11:12:04,ERROR,DataLoader,Null detected in field: user_id
+2024-01-15 11:12:12,INFO,DataLoader,Connection established to source system
+2024-01-15 11:12:21,INFO,DataLoader,Checkpoint saved
+2024-01-15 11:12:30,INFO,Exporter,Starting data load
+2024-01-15 11:12:38,ERROR,Validator,Null detected in field: user_id
+2024-01-15 11:12:47,WARN,Scheduler,Slow query detected: 3917ms
+2024-01-15 11:12:56,INFO,DataLoader,Checkpoint saved
+2024-01-15 11:13:05,INFO,Exporter,File loaded successfully
+2024-01-15 11:13:13,DEBUG,Validator,Memory usage: 2481MB
+2024-01-15 11:13:22,INFO,DataLoader,Job completed in 4380 seconds
+2024-01-15 11:13:31,INFO,Exporter,Job completed in 1664 seconds
+2024-01-15 11:13:39,WARN,Exporter,"Retrying connection, attempt 2449"
+2024-01-15 11:13:48,DEBUG,Validator,Query plan: sequential scan on table orders
+2024-01-15 11:13:57,ERROR,Transformer,Null value found in column: amount
+2024-01-15 11:14:06,ERROR,Scheduler,Null detected in field: user_id
+2024-01-15 11:14:14,INFO,Scheduler,Batch 2521 processed successfully
+2024-01-15 11:14:23,WARN,Exporter,"Record count mismatch: expected 304, got 2780"
+2024-01-15 11:14:32,INFO,DataLoader,Connection established to source system
+2024-01-15 11:14:40,ERROR,Scheduler,Schema validation failed for table: orders
+2024-01-15 11:14:49,ERROR,Transformer,Null value found in column: amount
+2024-01-15 11:14:58,WARN,DataLoader,Slow query detected: 376ms
+2024-01-15 11:15:06,ERROR,Transformer,Null value found in column: amount
+2024-01-15 11:15:15,DEBUG,DataLoader,Query plan: sequential scan on table orders
+2024-01-15 11:15:24,INFO,DataLoader,File loaded successfully
+2024-01-15 11:15:33,ERROR,Transformer,Null value found in column: amount
+2024-01-15 11:15:41,INFO,Exporter,Job completed in 990 seconds
+2024-01-15 11:15:50,WARN,Validator,"Retrying connection, attempt 374"
+2024-01-15 11:15:59,INFO,DataLoader,File loaded successfully
+2024-01-15 11:16:07,ERROR,Transformer,Failed to write output file: permission denied
+2024-01-15 11:16:16,INFO,Transformer,Checkpoint saved
+2024-01-15 11:16:25,INFO,Scheduler,Connection established to source system
+2024-01-15 11:16:34,DEBUG,DataLoader,Entering function process_batch()
+2024-01-15 11:16:42,DEBUG,Scheduler,Memory usage: 3410MB
+2024-01-15 11:16:51,ERROR,Transformer,Null detected in field: user_id
+2024-01-15 11:17:00,WARN,Transformer,"Retrying connection, attempt 309"
+2024-01-15 11:17:08,INFO,Exporter,Checkpoint saved
+2024-01-15 11:17:17,INFO,DataLoader,Checkpoint saved
+2024-01-15 11:17:26,INFO,Scheduler,File loaded successfully
+2024-01-15 11:17:34,WARN,Exporter,"Retrying connection, attempt 2265"
+2024-01-15 11:17:43,INFO,Transformer,Batch 3887 processed successfully
+2024-01-15 11:17:52,INFO,DataLoader,File loaded successfully
+2024-01-15 11:18:01,INFO,Validator,Job completed in 3713 seconds
+2024-01-15 11:18:09,INFO,DataLoader,Checkpoint saved
+2024-01-15 11:18:18,ERROR,Exporter,Unhandled exception: KeyError('customer_id')
+2024-01-15 11:18:27,DEBUG,Exporter,Variable state: batch_size=4750
+2024-01-15 11:18:35,INFO,Validator,Starting data load
+2024-01-15 11:18:44,INFO,Transformer,Batch 3380 processed successfully
+2024-01-15 11:18:53,INFO,Transformer,File loaded successfully
+2024-01-15 11:19:01,WARN,Exporter,"Retrying connection, attempt 1771"
+2024-01-15 11:19:10,WARN,Exporter,Deprecated config key used: legacy_mode
+2024-01-15 11:19:19,ERROR,Validator,Connection timeout after 1657 seconds
+2024-01-15 11:19:28,INFO,Scheduler,File loaded successfully
+2024-01-15 11:19:36,INFO,Exporter,Connection established to source system
+2024-01-15 11:19:45,ERROR,Transformer,Connection timeout after 4945 seconds
+2024-01-15 11:19:54,ERROR,Scheduler,Null detected in field: user_id
+2024-01-15 11:20:02,DEBUG,DataLoader,Query plan: sequential scan on table orders
+2024-01-15 11:20:11,DEBUG,Transformer,Variable state: batch_size=3879
+2024-01-15 11:20:20,INFO,Exporter,Batch 2021 processed successfully
+2024-01-15 11:20:29,INFO,Scheduler,Starting data load
+2024-01-15 11:20:37,DEBUG,DataLoader,Query plan: sequential scan on table orders
+2024-01-15 11:20:46,DEBUG,Scheduler,Entering function process_batch()
+2024-01-15 11:20:55,INFO,DataLoader,Connection established to source system
+2024-01-15 11:21:03,INFO,DataLoader,Batch 3332 processed successfully
+2024-01-15 11:21:12,INFO,Validator,Starting data load
+2024-01-15 11:21:21,WARN,Validator,"Retrying connection, attempt 3763"
+2024-01-15 11:21:29,ERROR,DataLoader,Schema validation failed for table: orders
+2024-01-15 11:21:38,DEBUG,Exporter,Cache hit ratio: 3035%
+2024-01-15 11:21:47,ERROR,DataLoader,Duplicate primary key detected: 580
+2024-01-15 11:21:56,DEBUG,Validator,Variable state: batch_size=268
+2024-01-15 11:22:04,INFO,Validator,Batch 4444 processed successfully
+2024-01-15 11:22:13,ERROR,DataLoader,Unhandled exception: KeyError('customer_id')
+2024-01-15 11:22:22,WARN,Validator,"Record count mismatch: expected 910, got 3138"
+2024-01-15 11:22:30,INFO,Scheduler,File loaded successfully
+2024-01-15 11:22:39,INFO,Scheduler,Batch 549 processed successfully
+2024-01-15 11:22:48,ERROR,Transformer,Null detected in field: user_id
+2024-01-15 11:22:56,WARN,Exporter,"Partial batch processed, 1719 records skipped"
+2024-01-15 11:23:05,INFO,Validator,Checkpoint saved
+2024-01-15 11:23:14,INFO,Validator,Job completed in 3707 seconds
+2024-01-15 11:23:23,WARN,DataLoader,Slow query detected: 4358ms
+2024-01-15 11:23:31,DEBUG,Exporter,Variable state: batch_size=3016
+2024-01-15 11:23:40,INFO,Exporter,File loaded successfully
+2024-01-15 11:23:49,DEBUG,Validator,Entering function process_batch()
+2024-01-15 11:23:57,INFO,Transformer,Connection established to source system
+2024-01-15 11:24:06,WARN,DataLoader,Deprecated config key used: legacy_mode
+2024-01-15 11:24:15,DEBUG,Exporter,Memory usage: 3442MB
+2024-01-15 11:24:24,ERROR,DataLoader,Connection timeout after 1549 seconds
+2024-01-15 11:24:32,INFO,Transformer,Checkpoint saved
+2024-01-15 11:24:41,WARN,Validator,Slow query detected: 4861ms
+2024-01-15 11:24:50,DEBUG,Exporter,Query plan: sequential scan on table orders
+2024-01-15 11:24:58,INFO,Validator,Starting data load
+2024-01-15 11:25:07,WARN,Validator,"Record count mismatch: expected 1216, got 2893"
+2024-01-15 11:25:16,INFO,Transformer,Checkpoint saved
+2024-01-15 11:25:24,INFO,Transformer,Batch 1258 processed successfully
+2024-01-15 11:25:33,INFO,DataLoader,Job completed in 4707 seconds
+2024-01-15 11:25:42,INFO,Validator,Starting data load
+2024-01-15 11:25:51,ERROR,Validator,Connection timeout after 1212 seconds
+2024-01-15 11:25:59,INFO,Transformer,Checkpoint saved
+2024-01-15 11:26:08,DEBUG,Exporter,Query plan: sequential scan on table orders
+2024-01-15 11:26:17,DEBUG,Transformer,Entering function process_batch()
+2024-01-15 11:26:25,INFO,Validator,Connection established to source system
+2024-01-15 11:26:34,ERROR,Scheduler,Failed to write output file: permission denied
+2024-01-15 11:26:43,ERROR,Exporter,Null value found in column: amount
+2024-01-15 11:26:51,INFO,DataLoader,Connection established to source system
+2024-01-15 11:27:00,INFO,Validator,File loaded successfully
+2024-01-15 11:27:09,WARN,Transformer,Deprecated config key used: legacy_mode
+2024-01-15 11:27:18,INFO,Exporter,Batch 716 processed successfully
+2024-01-15 11:27:26,INFO,Exporter,Job completed in 4942 seconds
+2024-01-15 11:27:35,WARN,DataLoader,Deprecated config key used: legacy_mode
+2024-01-15 11:27:44,ERROR,Exporter,Connection timeout after 3164 seconds
+2024-01-15 11:27:52,INFO,Validator,Job completed in 2524 seconds
+2024-01-15 11:28:01,DEBUG,DataLoader,Cache hit ratio: 3640%
+2024-01-15 11:28:10,ERROR,Validator,Null detected in field: user_id
+2024-01-15 11:28:19,INFO,Scheduler,Checkpoint saved
+2024-01-15 11:28:27,INFO,Exporter,Checkpoint saved
+2024-01-15 11:28:36,DEBUG,Scheduler,Query plan: sequential scan on table orders
+2024-01-15 11:28:45,INFO,Validator,Connection established to source system
+2024-01-15 11:28:53,WARN,Scheduler,"Retrying connection, attempt 1633"
+2024-01-15 11:29:02,DEBUG,Validator,Variable state: batch_size=4019
+2024-01-15 11:29:11,DEBUG,Validator,Variable state: batch_size=2490
+2024-01-15 11:29:19,WARN,Exporter,"Retrying connection, attempt 220"
+2024-01-15 11:29:28,INFO,Validator,Batch 3872 processed successfully
+2024-01-15 11:29:37,ERROR,Validator,Schema validation failed for table: orders
+2024-01-15 11:29:46,DEBUG,Transformer,Entering function process_batch()
+2024-01-15 11:29:54,WARN,DataLoader,"Partial batch processed, 2964 records skipped"
+2024-01-15 11:30:03,WARN,Exporter,Deprecated config key used: legacy_mode
+2024-01-15 11:30:12,INFO,Scheduler,File loaded successfully
+2024-01-15 11:30:20,WARN,Transformer,Deprecated config key used: legacy_mode
+2024-01-15 11:30:29,INFO,DataLoader,Job completed in 2959 seconds
+2024-01-15 11:30:38,ERROR,Validator,Null value found in column: amount
+2024-01-15 11:30:47,WARN,DataLoader,"Partial batch processed, 1588 records skipped"
+2024-01-15 11:30:55,ERROR,Scheduler,Duplicate primary key detected: 1370
+2024-01-15 11:31:04,INFO,Validator,Batch 2467 processed successfully
+2024-01-15 11:31:13,ERROR,Validator,Null value found in column: amount
+2024-01-15 11:31:21,INFO,Transformer,File loaded successfully
+2024-01-15 11:31:30,INFO,Exporter,Connection established to source system
+2024-01-15 11:31:39,INFO,Transformer,Checkpoint saved
+2024-01-15 11:31:47,ERROR,Scheduler,Unhandled exception: KeyError('customer_id')
+2024-01-15 11:31:56,ERROR,DataLoader,Schema validation failed for table: orders
+2024-01-15 11:32:05,INFO,Transformer,File loaded successfully
+2024-01-15 11:32:14,INFO,Validator,Starting data load
+2024-01-15 11:32:22,WARN,Validator,"Retrying connection, attempt 2496"
+2024-01-15 11:32:31,ERROR,DataLoader,Null detected in field: user_id
+2024-01-15 11:32:40,ERROR,Validator,Null detected in field: user_id
+2024-01-15 11:32:48,DEBUG,Exporter,Entering function process_batch()
+2024-01-15 11:32:57,ERROR,Exporter,Null value found in column: amount
+2024-01-15 11:33:06,INFO,Scheduler,Checkpoint saved
+2024-01-15 11:33:14,INFO,Validator,File loaded successfully
+2024-01-15 11:33:23,ERROR,DataLoader,Duplicate primary key detected: 1015
+2024-01-15 11:33:32,INFO,Transformer,Starting data load
+2024-01-15 11:33:41,INFO,Validator,Checkpoint saved
+2024-01-15 11:33:49,INFO,Scheduler,Batch 1982 processed successfully
+2024-01-15 11:33:58,WARN,DataLoader,"Partial batch processed, 115 records skipped"
+2024-01-15 11:34:07,INFO,Transformer,Job completed in 1408 seconds
+2024-01-15 11:34:15,INFO,DataLoader,Starting data load
+2024-01-15 11:34:24,INFO,Scheduler,Starting data load
+2024-01-15 11:34:33,INFO,Validator,Connection established to source system
+2024-01-15 11:34:42,WARN,Exporter,"Record count mismatch: expected 2575, got 1013"
+2024-01-15 11:34:50,WARN,Scheduler,"Retrying connection, attempt 4062"
+2024-01-15 11:34:59,ERROR,Scheduler,Failed to write output file: permission denied
+2024-01-15 11:35:08,INFO,DataLoader,Connection established to source system
+2024-01-15 11:35:16,WARN,Validator,Slow query detected: 1851ms
+2024-01-15 11:35:25,INFO,Exporter,Starting data load
+2024-01-15 11:35:34,DEBUG,Validator,Cache hit ratio: 105%
+2024-01-15 11:35:42,ERROR,Exporter,Schema validation failed for table: orders
+2024-01-15 11:35:51,INFO,Exporter,Connection established to source system
+2024-01-15 11:36:00,ERROR,Transformer,Null value found in column: amount
+2024-01-15 11:36:09,INFO,Scheduler,Connection established to source system
+2024-01-15 11:36:17,DEBUG,Exporter,Memory usage: 4768MB
+2024-01-15 11:36:26,INFO,Exporter,Job completed in 3898 seconds
+2024-01-15 11:36:35,DEBUG,Exporter,Variable state: batch_size=2285
+2024-01-15 11:36:43,ERROR,DataLoader,Null value found in column: amount
+2024-01-15 11:36:52,WARN,Transformer,"Record count mismatch: expected 816, got 433"
+2024-01-15 11:37:01,DEBUG,Exporter,Entering function process_batch()
+2024-01-15 11:37:09,WARN,Validator,"Retrying connection, attempt 2481"
+2024-01-15 11:37:18,ERROR,Scheduler,Duplicate primary key detected: 4033
+2024-01-15 11:37:27,INFO,Exporter,Connection established to source system
+2024-01-15 11:37:36,WARN,Scheduler,"Partial batch processed, 145 records skipped"
+2024-01-15 11:37:44,DEBUG,DataLoader,Query plan: sequential scan on table orders
+2024-01-15 11:37:53,DEBUG,Exporter,Query plan: sequential scan on table orders
+2024-01-15 11:38:02,INFO,Validator,Batch 1345 processed successfully
+2024-01-15 11:38:10,INFO,Validator,Batch 3188 processed successfully
+2024-01-15 11:38:19,ERROR,Scheduler,Failed to write output file: permission denied
+2024-01-15 11:38:28,ERROR,Scheduler,Schema validation failed for table: orders
+2024-01-15 11:38:37,DEBUG,Scheduler,Entering function process_batch()
+2024-01-15 11:38:45,WARN,Exporter,"Partial batch processed, 2890 records skipped"
+2024-01-15 11:38:54,INFO,DataLoader,Checkpoint saved
+2024-01-15 11:39:03,DEBUG,Validator,Variable state: batch_size=221
+2024-01-15 11:39:11,INFO,Exporter,Job completed in 2928 seconds
+2024-01-15 11:39:20,INFO,Transformer,Starting data load
+2024-01-15 11:39:29,WARN,DataLoader,Deprecated config key used: legacy_mode
+2024-01-15 11:39:37,INFO,Scheduler,Job completed in 307 seconds
+2024-01-15 11:39:46,ERROR,Exporter,Unhandled exception: KeyError('customer_id')
+2024-01-15 11:39:55,INFO,Exporter,Checkpoint saved
+2024-01-15 11:40:04,INFO,Exporter,Job completed in 4691 seconds
+2024-01-15 11:40:12,ERROR,DataLoader,Failed to write output file: permission denied
+2024-01-15 11:40:21,WARN,Validator,"Retrying connection, attempt 2454"
+2024-01-15 11:40:30,DEBUG,Transformer,Query plan: sequential scan on table orders
+2024-01-15 11:40:38,INFO,Validator,File loaded successfully
+2024-01-15 11:40:47,INFO,Transformer,Checkpoint saved
+2024-01-15 11:40:56,INFO,Validator,Job completed in 552 seconds
+2024-01-15 11:41:04,ERROR,Exporter,Schema validation failed for table: orders
+2024-01-15 11:41:13,ERROR,Validator,Unhandled exception: KeyError('customer_id')
+2024-01-15 11:41:22,ERROR,Validator,Null detected in field: user_id
+2024-01-15 11:41:31,INFO,Scheduler,Connection established to source system
+2024-01-15 11:41:39,DEBUG,Scheduler,Cache hit ratio: 4726%
+2024-01-15 11:41:48,INFO,Exporter,Job completed in 4365 seconds
+2024-01-15 11:41:57,DEBUG,DataLoader,Variable state: batch_size=1644
+2024-01-15 11:42:05,WARN,Transformer,"Retrying connection, attempt 2460"
+2024-01-15 11:42:14,INFO,DataLoader,Batch 1668 processed successfully
+2024-01-15 11:42:23,INFO,Validator,Batch 1316 processed successfully
+2024-01-15 11:42:32,ERROR,Transformer,Schema validation failed for table: orders
+2024-01-15 11:42:40,INFO,DataLoader,Starting data load
+2024-01-15 11:42:49,WARN,Exporter,Slow query detected: 304ms
+2024-01-15 11:42:58,INFO,Transformer,File loaded successfully
+2024-01-15 11:43:06,ERROR,Transformer,Failed to write output file: permission denied
+2024-01-15 11:43:15,ERROR,DataLoader,Duplicate primary key detected: 688
+2024-01-15 11:43:24,WARN,DataLoader,Slow query detected: 2978ms
+2024-01-15 11:43:32,INFO,Transformer,Starting data load
+2024-01-15 11:43:41,ERROR,DataLoader,Unhandled exception: KeyError('customer_id')
+2024-01-15 11:43:50,INFO,DataLoader,Starting data load
+2024-01-15 11:43:59,ERROR,Validator,Connection timeout after 4787 seconds
+2024-01-15 11:44:07,ERROR,Transformer,Schema validation failed for table: orders
+2024-01-15 11:44:16,INFO,Transformer,Job completed in 3601 seconds
+2024-01-15 11:44:25,INFO,Scheduler,File loaded successfully
+2024-01-15 11:44:33,INFO,DataLoader,Job completed in 4471 seconds
+2024-01-15 11:44:42,WARN,Transformer,Deprecated config key used: legacy_mode
+2024-01-15 11:44:51,WARN,Validator,Deprecated config key used: legacy_mode
+2024-01-15 11:45:00,INFO,DataLoader,Batch 1964 processed successfully
+2024-01-15 11:45:08,WARN,Validator,Deprecated config key used: legacy_mode
+2024-01-15 11:45:17,DEBUG,Exporter,Query plan: sequential scan on table orders
+2024-01-15 11:45:26,DEBUG,Validator,Memory usage: 740MB
+2024-01-15 11:45:34,INFO,Transformer,Connection established to source system
+2024-01-15 11:45:43,ERROR,Validator,Duplicate primary key detected: 657
+2024-01-15 11:45:52,WARN,Exporter,Deprecated config key used: legacy_mode
+2024-01-15 11:46:00,DEBUG,Validator,Variable state: batch_size=544
+2024-01-15 11:46:09,INFO,Scheduler,Batch 2677 processed successfully
+2024-01-15 11:46:18,ERROR,DataLoader,Failed to write output file: permission denied
+2024-01-15 11:46:27,ERROR,Transformer,Null value found in column: amount
+2024-01-15 11:46:35,ERROR,Validator,Unhandled exception: KeyError('customer_id')
+2024-01-15 11:46:44,INFO,Scheduler,Batch 1066 processed successfully
+2024-01-15 11:46:53,ERROR,Validator,Schema validation failed for table: orders
+2024-01-15 11:47:01,INFO,Scheduler,Job completed in 2309 seconds
+2024-01-15 11:47:10,INFO,Validator,Starting data load
+2024-01-15 11:47:19,DEBUG,Scheduler,Cache hit ratio: 170%
+2024-01-15 11:47:27,DEBUG,Scheduler,Cache hit ratio: 729%
+2024-01-15 11:47:36,INFO,Transformer,File loaded successfully
+2024-01-15 11:47:45,WARN,Transformer,"Record count mismatch: expected 3015, got 1394"
+2024-01-15 11:47:54,DEBUG,DataLoader,Entering function process_batch()
+2024-01-15 11:48:02,ERROR,Exporter,Duplicate primary key detected: 4049
+2024-01-15 11:48:11,INFO,Transformer,Starting data load
+2024-01-15 11:48:20,ERROR,Exporter,Null detected in field: user_id
+2024-01-15 11:48:28,WARN,Validator,"Retrying connection, attempt 3427"
+2024-01-15 11:48:37,INFO,Transformer,File loaded successfully
+2024-01-15 11:48:46,INFO,Exporter,Starting data load
+2024-01-15 11:48:55,ERROR,Exporter,Null value found in column: amount
+2024-01-15 11:49:03,INFO,Validator,Batch 3257 processed successfully
+2024-01-15 11:49:12,ERROR,Exporter,Failed to write output file: permission denied
+2024-01-15 11:49:21,INFO,Scheduler,File loaded successfully
+2024-01-15 11:49:29,DEBUG,Exporter,Memory usage: 4968MB
+2024-01-15 11:49:38,ERROR,DataLoader,Null value found in column: amount
+2024-01-15 11:49:47,WARN,Validator,Slow query detected: 3039ms
+2024-01-15 11:49:55,DEBUG,Scheduler,Entering function process_batch()
+2024-01-15 11:50:04,INFO,Scheduler,Connection established to source system
+2024-01-15 11:50:13,INFO,Validator,Batch 4346 processed successfully
+2024-01-15 11:50:22,INFO,DataLoader,Job completed in 362 seconds
+2024-01-15 11:50:30,WARN,Validator,Deprecated config key used: legacy_mode
+2024-01-15 11:50:39,DEBUG,Validator,Variable state: batch_size=2161
+2024-01-15 11:50:48,INFO,Transformer,Job completed in 4025 seconds
+2024-01-15 11:50:56,WARN,Exporter,"Record count mismatch: expected 1548, got 1218"
+2024-01-15 11:51:05,INFO,Transformer,File loaded successfully
+2024-01-15 11:51:14,INFO,Exporter,Connection established to source system
+2024-01-15 11:51:22,INFO,Validator,Batch 4595 processed successfully
+2024-01-15 11:51:31,WARN,DataLoader,"Retrying connection, attempt 1013"
+2024-01-15 11:51:40,INFO,Validator,Starting data load
+2024-01-15 11:51:49,DEBUG,Scheduler,Variable state: batch_size=1740
+2024-01-15 11:51:57,DEBUG,DataLoader,Variable state: batch_size=4676
+2024-01-15 11:52:06,INFO,DataLoader,Starting data load
+2024-01-15 11:52:15,DEBUG,DataLoader,Memory usage: 1000MB
+2024-01-15 11:52:23,INFO,DataLoader,Job completed in 1260 seconds
+2024-01-15 11:52:32,INFO,Exporter,Connection established to source system
+2024-01-15 11:52:41,ERROR,Validator,Null value found in column: amount
+2024-01-15 11:52:50,DEBUG,Scheduler,Cache hit ratio: 1732%
+2024-01-15 11:52:58,ERROR,Validator,Connection timeout after 455 seconds
+2024-01-15 11:53:07,WARN,Scheduler,Slow query detected: 759ms
+2024-01-15 11:53:16,INFO,Transformer,Connection established to source system
+2024-01-15 11:53:24,DEBUG,Transformer,Query plan: sequential scan on table orders
+2024-01-15 11:53:33,ERROR,Transformer,Null value found in column: amount
+2024-01-15 11:53:42,ERROR,Validator,Failed to write output file: permission denied
+2024-01-15 11:53:50,INFO,DataLoader,Job completed in 4200 seconds
+2024-01-15 11:53:59,WARN,Exporter,Slow query detected: 2200ms
+2024-01-15 11:54:08,WARN,DataLoader,Slow query detected: 3017ms
+2024-01-15 11:54:17,INFO,Exporter,File loaded successfully
+2024-01-15 11:54:25,INFO,Exporter,Batch 1837 processed successfully
+2024-01-15 11:54:34,DEBUG,Scheduler,Variable state: batch_size=688
+2024-01-15 11:54:43,WARN,DataLoader,Slow query detected: 2461ms
+2024-01-15 11:54:51,DEBUG,Validator,Cache hit ratio: 4286%
+2024-01-15 11:55:00,INFO,DataLoader,Checkpoint saved
+2024-01-15 11:55:09,WARN,Scheduler,Slow query detected: 3384ms
+2024-01-15 11:55:17,WARN,Scheduler,Deprecated config key used: legacy_mode
+2024-01-15 11:55:26,WARN,Scheduler,"Record count mismatch: expected 934, got 3792"
+2024-01-15 11:55:35,INFO,Transformer,Connection established to source system
+2024-01-15 11:55:44,INFO,Validator,Job completed in 4811 seconds
+2024-01-15 11:55:52,ERROR,Exporter,Unhandled exception: KeyError('customer_id')
+2024-01-15 11:56:01,DEBUG,Transformer,Cache hit ratio: 1517%
+2024-01-15 11:56:10,ERROR,Scheduler,Connection timeout after 872 seconds
+2024-01-15 11:56:18,WARN,DataLoader,Slow query detected: 956ms
+2024-01-15 11:56:27,INFO,Exporter,Connection established to source system
+2024-01-15 11:56:36,ERROR,Validator,Unhandled exception: KeyError('customer_id')
+2024-01-15 11:56:45,ERROR,DataLoader,Null detected in field: user_id
+2024-01-15 11:56:53,INFO,DataLoader,Batch 1542 processed successfully
+2024-01-15 11:57:02,INFO,Transformer,Batch 1981 processed successfully
+2024-01-15 11:57:11,DEBUG,Scheduler,Cache hit ratio: 706%
+2024-01-15 11:57:19,ERROR,Transformer,Schema validation failed for table: orders
+2024-01-15 11:57:28,INFO,Transformer,Batch 3648 processed successfully
+2024-01-15 11:57:37,WARN,Exporter,"Partial batch processed, 1988 records skipped"
+2024-01-15 11:57:45,INFO,Exporter,File loaded successfully
+2024-01-15 11:57:54,INFO,Exporter,Connection established to source system
+2024-01-15 11:58:03,WARN,Scheduler,Deprecated config key used: legacy_mode
+2024-01-15 11:58:12,INFO,Scheduler,Checkpoint saved
+2024-01-15 11:58:20,ERROR,Scheduler,Null value found in column: amount
+2024-01-15 11:58:29,INFO,DataLoader,Job completed in 3418 seconds
+2024-01-15 11:58:38,INFO,Scheduler,Batch 2841 processed successfully
+2024-01-15 11:58:46,ERROR,DataLoader,Null detected in field: user_id
+2024-01-15 11:58:55,WARN,Exporter,"Retrying connection, attempt 4159"
+2024-01-15 11:59:04,WARN,Validator,"Partial batch processed, 3838 records skipped"
+2024-01-15 11:59:12,DEBUG,Exporter,Query plan: sequential scan on table orders
+2024-01-15 11:59:21,ERROR,Transformer,Unhandled exception: KeyError('customer_id')
+2024-01-15 11:59:30,ERROR,DataLoader,Failed to write output file: permission denied
+2024-01-15 11:59:39,INFO,Transformer,Checkpoint saved
+2024-01-15 11:59:47,ERROR,Exporter,Connection timeout after 1923 seconds
+2024-01-15 11:59:56,WARN,DataLoader,Deprecated config key used: legacy_mode
+2024-01-15 12:00:05,ERROR,Transformer,Duplicate primary key detected: 4125
+2024-01-15 12:00:13,ERROR,Validator,Schema validation failed for table: orders
+2024-01-15 12:00:22,INFO,Transformer,Connection established to source system
+2024-01-15 12:00:31,ERROR,DataLoader,Duplicate primary key detected: 4564
+2024-01-15 12:00:40,DEBUG,Scheduler,Variable state: batch_size=854
+2024-01-15 12:00:48,DEBUG,Exporter,Query plan: sequential scan on table orders
+2024-01-15 12:00:57,ERROR,Scheduler,Duplicate primary key detected: 835
+2024-01-15 12:01:06,INFO,DataLoader,Starting data load
+2024-01-15 12:01:14,DEBUG,Transformer,Memory usage: 3617MB
+2024-01-15 12:01:23,WARN,DataLoader,"Retrying connection, attempt 2980"
+2024-01-15 12:01:32,ERROR,DataLoader,Duplicate primary key detected: 1654
+2024-01-15 12:01:40,DEBUG,DataLoader,Cache hit ratio: 3881%
+2024-01-15 12:01:49,INFO,Transformer,File loaded successfully
+2024-01-15 12:01:58,ERROR,Exporter,Connection timeout after 2011 seconds
+2024-01-15 12:02:07,ERROR,Scheduler,Schema validation failed for table: orders
+2024-01-15 12:02:15,ERROR,Exporter,Schema validation failed for table: orders
+2024-01-15 12:02:24,ERROR,Validator,Null value found in column: amount
+2024-01-15 12:02:33,ERROR,Scheduler,Null value found in column: amount
+2024-01-15 12:02:41,INFO,Transformer,Connection established to source system
+2024-01-15 12:02:50,ERROR,Transformer,Unhandled exception: KeyError('customer_id')
+2024-01-15 12:02:59,DEBUG,Exporter,Query plan: sequential scan on table orders
+2024-01-15 12:03:08,ERROR,Validator,Connection timeout after 65 seconds
+2024-01-15 12:03:16,DEBUG,Scheduler,Cache hit ratio: 3310%
+2024-01-15 12:03:25,ERROR,Scheduler,Unhandled exception: KeyError('customer_id')
+2024-01-15 12:03:34,DEBUG,Exporter,Cache hit ratio: 2471%
+2024-01-15 12:03:42,INFO,Validator,Connection established to source system
+2024-01-15 12:03:51,DEBUG,Validator,Cache hit ratio: 761%
+2024-01-15 12:04:00,WARN,Scheduler,Deprecated config key used: legacy_mode
+2024-01-15 12:04:08,INFO,Scheduler,Checkpoint saved
+2024-01-15 12:04:17,DEBUG,Validator,Query plan: sequential scan on table orders
+2024-01-15 12:04:26,ERROR,Validator,Connection timeout after 4158 seconds
+2024-01-15 12:04:35,INFO,DataLoader,Connection established to source system
+2024-01-15 12:04:43,ERROR,Exporter,Connection timeout after 1935 seconds
+2024-01-15 12:04:52,WARN,Scheduler,"Partial batch processed, 1916 records skipped"
+2024-01-15 12:05:01,INFO,Scheduler,Batch 1147 processed successfully
+2024-01-15 12:05:09,WARN,Transformer,"Record count mismatch: expected 2686, got 4231"
+2024-01-15 12:05:18,WARN,Validator,Slow query detected: 803ms
+2024-01-15 12:05:27,ERROR,Exporter,Null value found in column: amount
+2024-01-15 12:05:35,INFO,Transformer,Connection established to source system
+2024-01-15 12:05:44,INFO,Scheduler,Connection established to source system
+2024-01-15 12:05:53,WARN,Exporter,Deprecated config key used: legacy_mode
+2024-01-15 12:06:02,ERROR,Exporter,Failed to write output file: permission denied
+2024-01-15 12:06:10,DEBUG,Transformer,Variable state: batch_size=1042
+2024-01-15 12:06:19,ERROR,Transformer,Failed to write output file: permission denied
+2024-01-15 12:06:28,INFO,Transformer,Connection established to source system
+2024-01-15 12:06:36,ERROR,Scheduler,Connection timeout after 973 seconds
+2024-01-15 12:06:45,DEBUG,DataLoader,Entering function process_batch()
+2024-01-15 12:06:54,INFO,Scheduler,Starting data load
+2024-01-15 12:07:03,INFO,Validator,Job completed in 2409 seconds
+2024-01-15 12:07:11,INFO,Transformer,Starting data load
+2024-01-15 12:07:20,INFO,Validator,Job completed in 1767 seconds
+2024-01-15 12:07:29,ERROR,Exporter,Null value found in column: amount
+2024-01-15 12:07:37,INFO,DataLoader,Connection established to source system
+2024-01-15 12:07:46,INFO,Exporter,Job completed in 3091 seconds
+2024-01-15 12:07:55,DEBUG,Scheduler,Cache hit ratio: 1135%
+2024-01-15 12:08:03,ERROR,Exporter,Failed to write output file: permission denied
+2024-01-15 12:08:12,DEBUG,Validator,Entering function process_batch()
+2024-01-15 12:08:21,INFO,Exporter,Job completed in 4432 seconds
+2024-01-15 12:08:30,DEBUG,Exporter,Memory usage: 726MB
+2024-01-15 12:08:38,ERROR,Scheduler,Failed to write output file: permission denied
+2024-01-15 12:08:47,ERROR,Scheduler,Null value found in column: amount
+2024-01-15 12:08:56,WARN,DataLoader,"Partial batch processed, 4275 records skipped"
+2024-01-15 12:09:04,ERROR,Scheduler,Null value found in column: amount
+2024-01-15 12:09:13,INFO,DataLoader,Job completed in 1686 seconds
+2024-01-15 12:09:22,DEBUG,Scheduler,Query plan: sequential scan on table orders
+2024-01-15 12:09:30,WARN,Exporter,"Partial batch processed, 369 records skipped"
+2024-01-15 12:09:39,DEBUG,DataLoader,Memory usage: 3581MB
+2024-01-15 12:09:48,INFO,Scheduler,Job completed in 3130 seconds
+2024-01-15 12:09:57,INFO,DataLoader,Checkpoint saved
+2024-01-15 12:10:05,INFO,Validator,File loaded successfully
+2024-01-15 12:10:14,DEBUG,Transformer,Entering function process_batch()
+2024-01-15 12:10:23,INFO,DataLoader,Job completed in 3195 seconds
+2024-01-15 12:10:31,INFO,Exporter,Job completed in 2113 seconds
+2024-01-15 12:10:40,DEBUG,DataLoader,Entering function process_batch()
+2024-01-15 12:10:49,ERROR,Scheduler,Null detected in field: user_id
+2024-01-15 12:10:58,ERROR,Exporter,Null value found in column: amount
+2024-01-15 12:11:06,INFO,Scheduler,Connection established to source system
+2024-01-15 12:11:15,INFO,Transformer,File loaded successfully
+2024-01-15 12:11:24,DEBUG,DataLoader,Cache hit ratio: 4545%
+2024-01-15 12:11:32,INFO,Exporter,Connection established to source system
+2024-01-15 12:11:41,INFO,Transformer,Job completed in 4428 seconds
+2024-01-15 12:11:50,ERROR,Scheduler,Schema validation failed for table: orders
+2024-01-15 12:11:58,INFO,Exporter,Checkpoint saved
+2024-01-15 12:12:07,INFO,Exporter,Job completed in 4898 seconds
+2024-01-15 12:12:16,DEBUG,Exporter,Memory usage: 1743MB
+2024-01-15 12:12:25,DEBUG,Validator,Entering function process_batch()
+2024-01-15 12:12:33,WARN,Validator,"Record count mismatch: expected 3239, got 1008"
+2024-01-15 12:12:42,DEBUG,Scheduler,Memory usage: 3539MB
+2024-01-15 12:12:51,WARN,Validator,Deprecated config key used: legacy_mode
+2024-01-15 12:12:59,INFO,Validator,Job completed in 1726 seconds
+2024-01-15 12:13:08,DEBUG,Validator,Entering function process_batch()
+2024-01-15 12:13:17,WARN,DataLoader,"Record count mismatch: expected 1422, got 3385"
+2024-01-15 12:13:25,WARN,Exporter,Slow query detected: 4409ms
+2024-01-15 12:13:34,ERROR,DataLoader,Unhandled exception: KeyError('customer_id')
+2024-01-15 12:13:43,ERROR,Validator,Duplicate primary key detected: 3084
+2024-01-15 12:13:52,INFO,Transformer,Batch 70 processed successfully
+2024-01-15 12:14:00,WARN,Transformer,Slow query detected: 77ms
+2024-01-15 12:14:09,ERROR,Validator,Failed to write output file: permission denied
+2024-01-15 12:14:18,INFO,Scheduler,Batch 2484 processed successfully
+2024-01-15 12:14:26,INFO,Exporter,Job completed in 302 seconds
+2024-01-15 12:14:35,WARN,Scheduler,"Retrying connection, attempt 59"
+2024-01-15 12:14:44,DEBUG,Exporter,Entering function process_batch()
+2024-01-15 12:14:53,WARN,Transformer,"Partial batch processed, 1588 records skipped"
+2024-01-15 12:15:01,ERROR,Scheduler,Unhandled exception: KeyError('customer_id')
+2024-01-15 12:15:10,WARN,DataLoader,"Retrying connection, attempt 2127"
+2024-01-15 12:15:19,DEBUG,Scheduler,Memory usage: 1572MB
+2024-01-15 12:15:27,DEBUG,Scheduler,Variable state: batch_size=2072
+2024-01-15 12:15:36,DEBUG,DataLoader,Query plan: sequential scan on table orders
+2024-01-15 12:15:45,INFO,Exporter,Job completed in 998 seconds
+2024-01-15 12:15:53,WARN,Validator,"Partial batch processed, 357 records skipped"
+2024-01-15 12:16:02,INFO,Exporter,Checkpoint saved
+2024-01-15 12:16:11,INFO,Transformer,Job completed in 671 seconds
+2024-01-15 12:16:20,ERROR,Transformer,Failed to write output file: permission denied
+2024-01-15 12:16:28,DEBUG,Transformer,Cache hit ratio: 2698%
+2024-01-15 12:16:37,INFO,DataLoader,File loaded successfully
+2024-01-15 12:16:46,ERROR,Scheduler,Duplicate primary key detected: 2739
+2024-01-15 12:16:54,INFO,Exporter,Starting data load
+2024-01-15 12:17:03,DEBUG,Scheduler,Cache hit ratio: 598%
+2024-01-15 12:17:12,WARN,DataLoader,Slow query detected: 4743ms
+2024-01-15 12:17:21,INFO,DataLoader,File loaded successfully
+2024-01-15 12:17:29,DEBUG,DataLoader,Cache hit ratio: 508%
+2024-01-15 12:17:38,INFO,Scheduler,Batch 3538 processed successfully
+2024-01-15 12:17:47,INFO,DataLoader,Checkpoint saved
+2024-01-15 12:17:55,DEBUG,Exporter,Entering function process_batch()
+2024-01-15 12:18:04,DEBUG,Scheduler,Entering function process_batch()
+2024-01-15 12:18:13,WARN,Exporter,"Partial batch processed, 830 records skipped"
+2024-01-15 12:18:21,ERROR,DataLoader,Schema validation failed for table: orders
+2024-01-15 12:18:30,WARN,DataLoader,"Record count mismatch: expected 101, got 4876"
+2024-01-15 12:18:39,ERROR,Scheduler,Duplicate primary key detected: 1587
+2024-01-15 12:18:48,INFO,Scheduler,Job completed in 2912 seconds
+2024-01-15 12:18:56,WARN,Scheduler,Slow query detected: 1524ms
+2024-01-15 12:19:05,INFO,DataLoader,File loaded successfully
+2024-01-15 12:19:14,WARN,Scheduler,Deprecated config key used: legacy_mode
+2024-01-15 12:19:22,DEBUG,Transformer,Cache hit ratio: 3847%
+2024-01-15 12:19:31,WARN,Validator,Deprecated config key used: legacy_mode
+2024-01-15 12:19:40,WARN,Transformer,"Record count mismatch: expected 1945, got 4155"
+2024-01-15 12:19:48,ERROR,Scheduler,Duplicate primary key detected: 448
+2024-01-15 12:19:57,INFO,Transformer,Batch 1649 processed successfully
+2024-01-15 12:20:06,INFO,Exporter,Batch 3829 processed successfully
+2024-01-15 12:20:15,ERROR,Scheduler,Unhandled exception: KeyError('customer_id')
+2024-01-15 12:20:23,INFO,Transformer,File loaded successfully
+2024-01-15 12:20:32,WARN,DataLoader,"Retrying connection, attempt 1887"
+2024-01-15 12:20:41,ERROR,Transformer,Schema validation failed for table: orders
+2024-01-15 12:20:49,INFO,Transformer,File loaded successfully
+2024-01-15 12:20:58,INFO,DataLoader,Checkpoint saved
+2024-01-15 12:21:07,INFO,Transformer,Batch 4798 processed successfully
+2024-01-15 12:21:16,INFO,DataLoader,Starting data load
+2024-01-15 12:21:24,INFO,Validator,Batch 1428 processed successfully
+2024-01-15 12:21:33,DEBUG,Transformer,Cache hit ratio: 1606%
+2024-01-15 12:21:42,INFO,Validator,File loaded successfully
+2024-01-15 12:21:50,INFO,DataLoader,Job completed in 1723 seconds
+2024-01-15 12:21:59,WARN,Validator,Deprecated config key used: legacy_mode
+2024-01-15 12:22:08,DEBUG,Scheduler,Query plan: sequential scan on table orders
+2024-01-15 12:22:16,INFO,Transformer,Starting data load
+2024-01-15 12:22:25,INFO,Validator,Job completed in 4912 seconds
+2024-01-15 12:22:34,DEBUG,Transformer,Entering function process_batch()
+2024-01-15 12:22:43,DEBUG,Validator,Cache hit ratio: 2685%
+2024-01-15 12:22:51,INFO,Validator,Starting data load
+2024-01-15 12:23:00,DEBUG,Transformer,Entering function process_batch()
+2024-01-15 12:23:09,INFO,Exporter,Batch 4172 processed successfully
+2024-01-15 12:23:17,WARN,Exporter,"Retrying connection, attempt 2637"
+2024-01-15 12:23:26,WARN,Exporter,Slow query detected: 3882ms
+2024-01-15 12:23:35,WARN,Scheduler,"Record count mismatch: expected 1698, got 1799"
+2024-01-15 12:23:43,DEBUG,Exporter,Cache hit ratio: 3244%
+2024-01-15 12:23:52,INFO,Exporter,Checkpoint saved
+2024-01-15 12:24:01,INFO,DataLoader,Starting data load
+2024-01-15 12:24:10,INFO,Validator,Starting data load
+2024-01-15 12:24:18,WARN,Scheduler,Deprecated config key used: legacy_mode
+2024-01-15 12:24:27,WARN,Exporter,Deprecated config key used: legacy_mode
+2024-01-15 12:24:36,INFO,DataLoader,Starting data load
+2024-01-15 12:24:44,INFO,DataLoader,Job completed in 676 seconds
+2024-01-15 12:24:53,DEBUG,Scheduler,Variable state: batch_size=641
+2024-01-15 12:25:02,DEBUG,DataLoader,Entering function process_batch()
+2024-01-15 12:25:11,INFO,Transformer,Job completed in 1611 seconds
+2024-01-15 12:25:19,INFO,Validator,Starting data load
+2024-01-15 12:25:28,DEBUG,Scheduler,Memory usage: 70MB
+2024-01-15 12:25:37,INFO,Validator,Connection established to source system
+2024-01-15 12:25:45,ERROR,DataLoader,Schema validation failed for table: orders
+2024-01-15 12:25:54,DEBUG,Transformer,Cache hit ratio: 1720%
+2024-01-15 12:26:03,INFO,Scheduler,Checkpoint saved
+2024-01-15 12:26:11,INFO,DataLoader,Job completed in 1539 seconds
+2024-01-15 12:26:20,ERROR,Exporter,Null detected in field: user_id
+2024-01-15 12:26:29,DEBUG,DataLoader,Memory usage: 1139MB
+2024-01-15 12:26:38,DEBUG,Validator,Entering function process_batch()
+2024-01-15 12:26:46,INFO,Exporter,Connection established to source system
+2024-01-15 12:26:55,INFO,Scheduler,File loaded successfully
+2024-01-15 12:27:04,DEBUG,Transformer,Memory usage: 4655MB
+2024-01-15 12:27:12,DEBUG,Scheduler,Query plan: sequential scan on table orders
+2024-01-15 12:27:21,DEBUG,DataLoader,Variable state: batch_size=3166
+2024-01-15 12:27:30,WARN,Validator,"Partial batch processed, 3699 records skipped"
+2024-01-15 12:27:38,INFO,DataLoader,Batch 4530 processed successfully
+2024-01-15 12:27:47,INFO,Scheduler,Connection established to source system
+2024-01-15 12:27:56,INFO,Exporter,Job completed in 1687 seconds
+2024-01-15 12:28:05,INFO,Scheduler,File loaded successfully
+2024-01-15 12:28:13,INFO,DataLoader,Starting data load
+2024-01-15 12:28:22,INFO,DataLoader,Starting data load
+2024-01-15 12:28:31,WARN,DataLoader,Slow query detected: 1692ms
+2024-01-15 12:28:39,DEBUG,Validator,Query plan: sequential scan on table orders
+2024-01-15 12:28:48,WARN,Validator,"Partial batch processed, 1663 records skipped"
+2024-01-15 12:28:57,ERROR,Exporter,Connection timeout after 1653 seconds
+2024-01-15 12:29:06,DEBUG,Exporter,Entering function process_batch()
+2024-01-15 12:29:14,ERROR,Scheduler,Connection timeout after 4664 seconds
+2024-01-15 12:29:23,WARN,Scheduler,"Record count mismatch: expected 747, got 2359"
+2024-01-15 12:29:32,ERROR,Exporter,Connection timeout after 2437 seconds
+2024-01-15 12:29:40,WARN,Transformer,Slow query detected: 2041ms
+2024-01-15 12:29:49,DEBUG,Exporter,Query plan: sequential scan on table orders
+2024-01-15 12:29:58,ERROR,DataLoader,Schema validation failed for table: orders
+2024-01-15 12:30:06,DEBUG,Transformer,Memory usage: 4406MB
+2024-01-15 12:30:15,ERROR,DataLoader,Failed to write output file: permission denied
+2024-01-15 12:30:24,INFO,Scheduler,File loaded successfully
+2024-01-15 12:30:33,ERROR,Scheduler,Duplicate primary key detected: 2671
+2024-01-15 12:30:41,WARN,Validator,"Retrying connection, attempt 4146"
+2024-01-15 12:30:50,WARN,DataLoader,Slow query detected: 3123ms
+2024-01-15 12:30:59,ERROR,Transformer,Schema validation failed for table: orders
+2024-01-15 12:31:07,INFO,Transformer,Job completed in 3804 seconds
+2024-01-15 12:31:16,WARN,DataLoader,"Partial batch processed, 1985 records skipped"
+2024-01-15 12:31:25,INFO,Validator,Starting data load
+2024-01-15 12:31:34,WARN,Transformer,Deprecated config key used: legacy_mode
+2024-01-15 12:31:42,ERROR,Transformer,Null value found in column: amount
+2024-01-15 12:31:51,INFO,Validator,Starting data load
+2024-01-15 12:32:00,DEBUG,Scheduler,Cache hit ratio: 3622%
+2024-01-15 12:32:08,DEBUG,Scheduler,Entering function process_batch()
+2024-01-15 12:32:17,INFO,Scheduler,File loaded successfully
+2024-01-15 12:32:26,ERROR,Transformer,Connection timeout after 1955 seconds
+2024-01-15 12:32:34,INFO,Exporter,File loaded successfully
+2024-01-15 12:32:43,DEBUG,DataLoader,Cache hit ratio: 792%
+2024-01-15 12:32:52,ERROR,DataLoader,Schema validation failed for table: orders
+2024-01-15 12:33:01,ERROR,Validator,Unhandled exception: KeyError('customer_id')
+2024-01-15 12:33:09,DEBUG,Exporter,Query plan: sequential scan on table orders
+2024-01-15 12:33:18,INFO,Validator,Job completed in 1423 seconds
+2024-01-15 12:33:27,INFO,Validator,File loaded successfully
+2024-01-15 12:33:35,WARN,DataLoader,Deprecated config key used: legacy_mode
+2024-01-15 12:33:44,INFO,Transformer,Connection established to source system
+2024-01-15 12:33:53,WARN,DataLoader,"Partial batch processed, 4663 records skipped"
+2024-01-15 12:34:01,INFO,DataLoader,Checkpoint saved
+2024-01-15 12:34:10,ERROR,Transformer,Connection timeout after 1437 seconds
+2024-01-15 12:34:19,DEBUG,Exporter,Entering function process_batch()
+2024-01-15 12:34:28,WARN,Scheduler,Slow query detected: 3133ms
+2024-01-15 12:34:36,ERROR,Transformer,Unhandled exception: KeyError('customer_id')
+2024-01-15 12:34:45,INFO,Scheduler,File loaded successfully
+2024-01-15 12:34:54,ERROR,Transformer,Unhandled exception: KeyError('customer_id')
+2024-01-15 12:35:02,INFO,Exporter,Job completed in 1655 seconds
+2024-01-15 12:35:11,INFO,DataLoader,Starting data load
+2024-01-15 12:35:20,ERROR,Validator,Null detected in field: user_id
+2024-01-15 12:35:29,ERROR,DataLoader,Unhandled exception: KeyError('customer_id')
+2024-01-15 12:35:37,ERROR,Transformer,Duplicate primary key detected: 2714
+2024-01-15 12:35:46,INFO,Scheduler,File loaded successfully
+2024-01-15 12:35:55,WARN,Exporter,"Partial batch processed, 2635 records skipped"
+2024-01-15 12:36:03,INFO,DataLoader,File loaded successfully
+2024-01-15 12:36:12,DEBUG,DataLoader,Cache hit ratio: 1673%
+2024-01-15 12:36:21,INFO,Scheduler,Checkpoint saved
+2024-01-15 12:36:29,WARN,Exporter,Slow query detected: 2552ms
+2024-01-15 12:36:38,ERROR,Transformer,Schema validation failed for table: orders
+2024-01-15 12:36:47,INFO,Validator,Checkpoint saved
+2024-01-15 12:36:56,INFO,Exporter,File loaded successfully
+2024-01-15 12:37:04,INFO,Exporter,Connection established to source system
+2024-01-15 12:37:13,WARN,Exporter,"Retrying connection, attempt 3949"
+2024-01-15 12:37:22,ERROR,Exporter,Duplicate primary key detected: 682
+2024-01-15 12:37:30,WARN,Transformer,"Partial batch processed, 1440 records skipped"
+2024-01-15 12:37:39,INFO,Validator,Connection established to source system
+2024-01-15 12:37:48,WARN,Exporter,"Record count mismatch: expected 2730, got 1120"
+2024-01-15 12:37:56,ERROR,Transformer,Null detected in field: user_id
+2024-01-15 12:38:05,INFO,Scheduler,Batch 3066 processed successfully
+2024-01-15 12:38:14,INFO,Exporter,Connection established to source system
+2024-01-15 12:38:23,WARN,Scheduler,"Record count mismatch: expected 3349, got 319"
+2024-01-15 12:38:31,DEBUG,DataLoader,Query plan: sequential scan on table orders
+2024-01-15 12:38:40,INFO,Exporter,Job completed in 2856 seconds
+2024-01-15 12:38:49,ERROR,Validator,Failed to write output file: permission denied
+2024-01-15 12:38:57,DEBUG,Transformer,Cache hit ratio: 3914%
+2024-01-15 12:39:06,DEBUG,Validator,Entering function process_batch()
+2024-01-15 12:39:15,WARN,Transformer,Deprecated config key used: legacy_mode
+2024-01-15 12:39:24,WARN,Transformer,"Record count mismatch: expected 957, got 757"
+2024-01-15 12:39:32,ERROR,Exporter,Schema validation failed for table: orders
+2024-01-15 12:39:41,WARN,Transformer,Slow query detected: 1359ms
+2024-01-15 12:39:50,INFO,Validator,Checkpoint saved
+2024-01-15 12:39:58,WARN,Exporter,"Record count mismatch: expected 896, got 4691"
+2024-01-15 12:40:07,ERROR,Validator,Duplicate primary key detected: 1170
+2024-01-15 12:40:16,ERROR,Exporter,Failed to write output file: permission denied
+2024-01-15 12:40:24,DEBUG,Exporter,Entering function process_batch()
+2024-01-15 12:40:33,ERROR,Exporter,Unhandled exception: KeyError('customer_id')
+2024-01-15 12:40:42,ERROR,Transformer,Null detected in field: user_id
+2024-01-15 12:40:51,ERROR,Transformer,Schema validation failed for table: orders
+2024-01-15 12:40:59,DEBUG,Exporter,Variable state: batch_size=1742
+2024-01-15 12:41:08,INFO,Transformer,Starting data load
+2024-01-15 12:41:17,INFO,Scheduler,File loaded successfully
+2024-01-15 12:41:25,INFO,Exporter,File loaded successfully
+2024-01-15 12:41:34,INFO,Scheduler,Starting data load
+2024-01-15 12:41:43,ERROR,DataLoader,Null value found in column: amount
+2024-01-15 12:41:51,ERROR,DataLoader,Failed to write output file: permission denied
+2024-01-15 12:42:00,INFO,Scheduler,File loaded successfully
+2024-01-15 12:42:09,WARN,Validator,Slow query detected: 3877ms
+2024-01-15 12:42:18,WARN,Validator,Deprecated config key used: legacy_mode
+2024-01-15 12:42:26,ERROR,Validator,Failed to write output file: permission denied
+2024-01-15 12:42:35,WARN,Validator,Deprecated config key used: legacy_mode
+2024-01-15 12:42:44,WARN,Exporter,"Retrying connection, attempt 211"
+2024-01-15 12:42:52,INFO,Scheduler,Job completed in 2037 seconds
+2024-01-15 12:43:01,WARN,Exporter,"Partial batch processed, 3385 records skipped"
+2024-01-15 12:43:10,INFO,Validator,File loaded successfully
+2024-01-15 12:43:19,DEBUG,Validator,Query plan: sequential scan on table orders
+2024-01-15 12:43:27,WARN,Scheduler,"Record count mismatch: expected 2854, got 3506"
+2024-01-15 12:43:36,DEBUG,Exporter,Entering function process_batch()
+2024-01-15 12:43:45,WARN,Transformer,"Partial batch processed, 4685 records skipped"
+2024-01-15 12:43:53,INFO,Exporter,File loaded successfully
+2024-01-15 12:44:02,DEBUG,Exporter,Cache hit ratio: 3656%
+2024-01-15 12:44:11,WARN,Scheduler,"Retrying connection, attempt 1994"
+2024-01-15 12:44:19,INFO,DataLoader,File loaded successfully
+2024-01-15 12:44:28,INFO,Validator,Connection established to source system
+2024-01-15 12:44:37,ERROR,Exporter,Failed to write output file: permission denied
+2024-01-15 12:44:46,DEBUG,Exporter,Entering function process_batch()
+2024-01-15 12:44:54,DEBUG,Scheduler,Entering function process_batch()
+2024-01-15 12:45:03,DEBUG,Exporter,Variable state: batch_size=3580
+2024-01-15 12:45:12,INFO,DataLoader,Job completed in 719 seconds
+2024-01-15 12:45:20,INFO,Scheduler,Starting data load
+2024-01-15 12:45:29,INFO,Validator,Connection established to source system
+2024-01-15 12:45:38,INFO,Scheduler,Checkpoint saved
+2024-01-15 12:45:47,DEBUG,Validator,Memory usage: 1035MB
+2024-01-15 12:45:55,ERROR,Scheduler,Null detected in field: user_id
+2024-01-15 12:46:04,INFO,Exporter,Job completed in 1186 seconds
+2024-01-15 12:46:13,DEBUG,Exporter,Query plan: sequential scan on table orders
+2024-01-15 12:46:21,INFO,DataLoader,Checkpoint saved
+2024-01-15 12:46:30,WARN,DataLoader,Deprecated config key used: legacy_mode
+2024-01-15 12:46:39,ERROR,Transformer,Schema validation failed for table: orders
+2024-01-15 12:46:47,INFO,Validator,Starting data load
+2024-01-15 12:46:56,ERROR,DataLoader,Duplicate primary key detected: 1467
+2024-01-15 12:47:05,ERROR,Validator,Duplicate primary key detected: 1305
+2024-01-15 12:47:14,WARN,Validator,Slow query detected: 3879ms
+2024-01-15 12:47:22,ERROR,Exporter,Null value found in column: amount
+2024-01-15 12:47:31,INFO,Transformer,Batch 4490 processed successfully
+2024-01-15 12:47:40,INFO,Validator,Checkpoint saved
+2024-01-15 12:47:48,WARN,Transformer,"Partial batch processed, 1127 records skipped"
+2024-01-15 12:47:57,ERROR,Validator,Null detected in field: user_id
+2024-01-15 12:48:06,ERROR,Transformer,Failed to write output file: permission denied
+2024-01-15 12:48:14,ERROR,Scheduler,Null value found in column: amount
+2024-01-15 12:48:23,DEBUG,Exporter,Cache hit ratio: 462%
+2024-01-15 12:48:32,INFO,Exporter,Starting data load
+2024-01-15 12:48:41,DEBUG,Validator,Variable state: batch_size=3554
+2024-01-15 12:48:49,ERROR,Exporter,Null detected in field: user_id
+2024-01-15 12:48:58,INFO,Exporter,Job completed in 4884 seconds
+2024-01-15 12:49:07,ERROR,Exporter,Duplicate primary key detected: 735
+2024-01-15 12:49:15,DEBUG,Exporter,Memory usage: 3647MB
+2024-01-15 12:49:24,INFO,DataLoader,File loaded successfully
+2024-01-15 12:49:33,ERROR,Scheduler,Null detected in field: user_id
+2024-01-15 12:49:42,WARN,Scheduler,Slow query detected: 2243ms
+2024-01-15 12:49:50,ERROR,Transformer,Schema validation failed for table: orders
+2024-01-15 12:49:59,INFO,Transformer,File loaded successfully
+2024-01-15 12:50:08,ERROR,Scheduler,Null detected in field: user_id
+2024-01-15 12:50:16,INFO,Scheduler,Checkpoint saved
+2024-01-15 12:50:25,WARN,Scheduler,"Partial batch processed, 1017 records skipped"
+2024-01-15 12:50:34,DEBUG,DataLoader,Cache hit ratio: 4908%
+2024-01-15 12:50:42,INFO,Exporter,Job completed in 1008 seconds
+2024-01-15 12:50:51,INFO,Transformer,Batch 1321 processed successfully
+2024-01-15 12:51:00,WARN,DataLoader,"Record count mismatch: expected 1022, got 4147"
+2024-01-15 12:51:09,INFO,Scheduler,Starting data load
+2024-01-15 12:51:17,INFO,DataLoader,Checkpoint saved
+2024-01-15 12:51:26,INFO,Scheduler,Connection established to source system
+2024-01-15 12:51:35,DEBUG,Validator,Variable state: batch_size=4410
+2024-01-15 12:51:43,INFO,DataLoader,Batch 367 processed successfully
+2024-01-15 12:51:52,INFO,Transformer,Job completed in 1764 seconds
+2024-01-15 12:52:01,WARN,Transformer,"Partial batch processed, 2942 records skipped"
+2024-01-15 12:52:09,INFO,Scheduler,Connection established to source system
+2024-01-15 12:52:18,INFO,Exporter,Batch 1338 processed successfully
+2024-01-15 12:52:27,WARN,Validator,Slow query detected: 1174ms
+2024-01-15 12:52:36,INFO,Validator,Batch 1579 processed successfully
+2024-01-15 12:52:44,WARN,Scheduler,"Partial batch processed, 1344 records skipped"
+2024-01-15 12:52:53,DEBUG,Validator,Query plan: sequential scan on table orders
+2024-01-15 12:53:02,DEBUG,Transformer,Entering function process_batch()
+2024-01-15 12:53:10,WARN,Scheduler,Slow query detected: 541ms
+2024-01-15 12:53:19,ERROR,Validator,Connection timeout after 2239 seconds
+2024-01-15 12:53:28,DEBUG,Transformer,Memory usage: 81MB
+2024-01-15 12:53:37,INFO,Transformer,Connection established to source system
+2024-01-15 12:53:45,INFO,Validator,Checkpoint saved
+2024-01-15 12:53:54,WARN,Scheduler,Deprecated config key used: legacy_mode
+2024-01-15 12:54:03,WARN,DataLoader,"Retrying connection, attempt 2606"
+2024-01-15 12:54:11,INFO,Scheduler,Checkpoint saved
+2024-01-15 12:54:20,WARN,Transformer,Deprecated config key used: legacy_mode
+2024-01-15 12:54:29,ERROR,Transformer,Null detected in field: user_id
+2024-01-15 12:54:37,ERROR,DataLoader,Failed to write output file: permission denied
+2024-01-15 12:54:46,ERROR,Exporter,Failed to write output file: permission denied
+2024-01-15 12:54:55,INFO,Validator,Connection established to source system
+2024-01-15 12:55:04,INFO,Exporter,Checkpoint saved
+2024-01-15 12:55:12,ERROR,DataLoader,Connection timeout after 3331 seconds
+2024-01-15 12:55:21,DEBUG,DataLoader,Entering function process_batch()
+2024-01-15 12:55:30,INFO,DataLoader,File loaded successfully
+2024-01-15 12:55:38,DEBUG,DataLoader,Query plan: sequential scan on table orders
+2024-01-15 12:55:47,WARN,Scheduler,"Partial batch processed, 1022 records skipped"
+2024-01-15 12:55:56,INFO,Transformer,Batch 60 processed successfully
+2024-01-15 12:56:04,ERROR,Validator,Null detected in field: user_id
+2024-01-15 12:56:13,INFO,Exporter,Starting data load
+2024-01-15 12:56:22,INFO,Validator,Starting data load
+2024-01-15 12:56:31,DEBUG,Exporter,Query plan: sequential scan on table orders
+2024-01-15 12:56:39,INFO,DataLoader,Job completed in 2047 seconds
+2024-01-15 12:56:48,DEBUG,DataLoader,Memory usage: 2451MB
+2024-01-15 12:56:57,INFO,Transformer,File loaded successfully
+2024-01-15 12:57:05,INFO,Validator,Batch 4224 processed successfully
+2024-01-15 12:57:14,DEBUG,Scheduler,Query plan: sequential scan on table orders
+2024-01-15 12:57:23,INFO,Exporter,Job completed in 2445 seconds
+2024-01-15 12:57:32,INFO,Validator,Batch 1526 processed successfully
+2024-01-15 12:57:40,INFO,DataLoader,Connection established to source system
+2024-01-15 12:57:49,INFO,Scheduler,Starting data load
+2024-01-15 12:57:58,DEBUG,DataLoader,Cache hit ratio: 2050%
+2024-01-15 12:58:06,WARN,Validator,Deprecated config key used: legacy_mode
+2024-01-15 12:58:15,DEBUG,Scheduler,Memory usage: 891MB
+2024-01-15 12:58:24,ERROR,Exporter,Null detected in field: user_id
+2024-01-15 12:58:32,ERROR,DataLoader,Connection timeout after 1626 seconds
+2024-01-15 12:58:41,INFO,DataLoader,Starting data load
+2024-01-15 12:58:50,ERROR,DataLoader,Null detected in field: user_id
+2024-01-15 12:58:59,DEBUG,Validator,Entering function process_batch()
+2024-01-15 12:59:07,WARN,Transformer,Deprecated config key used: legacy_mode
+2024-01-15 12:59:16,ERROR,Exporter,Null detected in field: user_id
+2024-01-15 12:59:25,ERROR,Transformer,Null detected in field: user_id
+2024-01-15 12:59:33,INFO,Transformer,File loaded successfully
+2024-01-15 12:59:42,DEBUG,DataLoader,Query plan: sequential scan on table orders
+2024-01-15 12:59:51,INFO,DataLoader,Connection established to source system
